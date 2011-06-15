@@ -1,0 +1,33 @@
+Logfile initialized
+[INFO] logfile = /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/build.log
+[DEBUG] /Library/Application Support/Titanium/mobilesdk/osx/1.7.0/android/builder.py simulator UICompositeLayout /Users/nhuynh/Desktop/android-sdk-mac_x86 /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout com.appcelerator.UICompositeLayout 6 HVGA 
+[INFO] Building UICompositeLayout for Android ... one moment
+[INFO] Titanium SDK version: 1.7.0 (06/06/11 18:05 64155ee)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.015207 seconds on emulator to get ready
+[DEBUG] com.appcelerator.UICompositeLayout installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying project resources..
+[TRACE] COPYING MODIFIED FILE: /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/acceptance/1067_SizeProgressBar.js => /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/build/android/bin/assets/Resources/acceptance/1067_SizeProgressBar.js
+[TRACE] COPYING MODIFIED FILE: /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/acceptance/1068_SizeSwitch.js => /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/build/android/bin/assets/Resources/acceptance/1068_SizeSwitch.js
+[TRACE] COPYING MODIFIED FILE: /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/acceptance/1069_SizeTextArea.js => /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/build/android/bin/assets/Resources/acceptance/1069_SizeTextArea.js
+[INFO] Tiapp.xml unchanged, skipping class generation
+[DEBUG] Processing Android resource drawables
+[DEBUG] found drawable-long-land-hdpi splash screen at /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] found drawable-long-land-ldpi splash screen at /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/android/images/res-long-land-ldpi/default.png
+[DEBUG] found drawable-long-port-hdpi splash screen at /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] found drawable-long-port-ldpi splash screen at /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at /Volumes/Data/Titanium/titanium_mobile_tests_internal/FeatureTest/UICompositeLayout/Resources/android/images/res-notlong-port-mdpi/default.png
+[INFO] Waiting for SDCard to become available..
+[INFO] Re-launching application ... UICompositeLayout
+[INFO] Launching application ... UICompositeLayout
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appcelerator.UICompositeLayout/.UicompositelayoutActivity }
+
+[INFO] Relaunched UICompositeLayout ... Application should be running.
