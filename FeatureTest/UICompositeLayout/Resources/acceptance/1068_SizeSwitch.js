@@ -32,7 +32,8 @@ var view2 = Ti.UI.createView({
 });
 
 var sw2=Titanium.UI.createSwitch({
-	value: true
+	value: true,
+	title:'Testing'
 });
 
 var view3 = Ti.UI.createView({

@@ -1,5 +1,4 @@
-// Create a view and do not set the width and set left to 5 and right to 10, call width value
-// View should be 5 unit in width and return width value
+// Create a view and do not set the width and set left to 5 and right to 10, call width value (static/dynamic) 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -19,7 +18,7 @@ var view = Ti.UI.createView({
 });
 
 win.addEventListener('open', function(e){
-	label.text = 'View Width value: '+view.size.width+'\nPass if value is returned';
+	label.text = 'View Dynamic Width value: '+ view.rect.right +'-'+ view.rect.left + '=' + view.size.width+'\n Static Width Value is undefined:' + view.width;
 });
 
 win.add(view);

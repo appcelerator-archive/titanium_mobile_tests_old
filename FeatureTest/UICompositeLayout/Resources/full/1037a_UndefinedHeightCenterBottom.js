@@ -1,4 +1,4 @@
-//Create a view and do not set the top and set center.y to 200 and height to 50, call top value (static/dynamic)
+//Create a view and do not set the height and set the center.y to 5 and bottom to 10, call height value(static/dynamic) 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -13,12 +13,12 @@ var label = Ti.UI.createLabel({
 });
 var view = Ti.UI.createView({
 	backgroundColor: 'yellow',
-	height: 50,
-	center: {y:200}
+	bottom: 10,
+	center: {y:5}
 });
 
 win.addEventListener('open', function(e){
-	label.text = 'View Dynamic Top value: '+ view.rect.top + '=175' + '\n Static Height Value is undefined:' + view.top;
+	label.text = 'View Dynamic Height value: '+ view.rect.bottom +'-'+ view.rect.top + '=' + view.size.height+'\n Static Height Value is undefined:' + view.height;
 });
 
 win.add(view);

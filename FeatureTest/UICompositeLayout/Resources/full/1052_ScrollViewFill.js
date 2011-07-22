@@ -1,5 +1,4 @@
-// Create a view with scroll view and put content that will require both scroll 
-// View should fill the screen and allow to scroll both direction    
+//Create a Ti.UI.View with scroll view and do not put any content 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -13,22 +12,24 @@ var label = Ti.UI.createLabel({
 });
 
 var scrollView = Titanium.UI.createScrollView({
-	contentWidth:'auto',
     contentHeight:'auto',
+    contentWidth:'auto',
     showVerticalScrollIndicator:true,
     showHorizontalScrollIndicator:true
 });
-var view = Ti.UI.createView({
-    backgroundColor:'gray',
-    height: 500,
-    width: 500
-});
 
-scrollView.add(view);
+var view = Ti.UI.createView();
+
+var view2 = Ti.UI.createView({
+	backgroundColor:'red'
+})
+
+scrollView.add(view2);
 
 win.addEventListener('open', function(e){
-	label.text = 'Pass if gray view fills the screen and scrolls left, right, up, and down';
+	label.text = 'Scroll View height: ' + scrollView.size.height + ' width: ' + scrollView.size.width;
 });
 
 win.add(scrollView);
+win.add(view)
 view.add(label);

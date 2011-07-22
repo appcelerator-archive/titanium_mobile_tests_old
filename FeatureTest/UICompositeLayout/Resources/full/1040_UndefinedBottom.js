@@ -14,12 +14,12 @@ var label = Ti.UI.createLabel({
 });
 var view = Ti.UI.createView({
 	backgroundColor: 'yellow',
-	center: {y:50}
+	center: {y:50},
+	top: 10
 });
 
 win.addEventListener('open', function(e){
-	label.text = 'View Center.y: '+view.center.y+' Bottom: '+view.bottom+
-				'\nPass if Center.y: 50 and Bottom is returned';
+	label.text = 'View Dynamic CenterY value: '+ view.rect.bottom +'\n Static CenterY Value is undefined:' + view.bottom;
 });
 
 win.add(view);

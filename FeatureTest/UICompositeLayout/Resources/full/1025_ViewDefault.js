@@ -24,7 +24,7 @@ win.addEventListener('open', function(e){
 			'center: x'+view.center.x+' y: '+view.center.y+'\n'+
 			'width: '+view.width+'\n'+
 			'height: '+view.height+'\n\n'+
-			'Pass if view fills window and all values are returned';
+			'Pass if view fills window and all values are undefined';
 });
 
 win.add(view);

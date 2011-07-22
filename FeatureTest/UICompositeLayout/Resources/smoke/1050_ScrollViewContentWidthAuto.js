@@ -20,7 +20,7 @@ var scrollView = Titanium.UI.createScrollView({
 });
 var view = Ti.UI.createView({
     backgroundColor:'gray',
-    width: 500
+    width: 1000
 });
 
 scrollView.add(view);

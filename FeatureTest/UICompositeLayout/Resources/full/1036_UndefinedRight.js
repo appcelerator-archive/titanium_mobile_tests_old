@@ -1,5 +1,4 @@
-// Create a view and do not set the right set center.x to 50 call right value
-// View should display 50 as the center point and return right value
+//Create a view and do not set the right set center.x to 50 and left to 10 call right value(static/dynamic) 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -14,12 +13,12 @@ var label = Ti.UI.createLabel({
 });
 var view = Ti.UI.createView({
 	backgroundColor: 'yellow',
-	center: {x:50}
+	center: {x:50},
+	left:10
 });
 
 win.addEventListener('open', function(e){
-	label.text = 'View Center.x: '+view.center.x+' Right: '+view.rect.right+
-				'\nPass if Center.x: 50 Right is returned';
+	label.text = 'View Dynamic Right value: '+view.rect.right + '=90' +'\n Static Right Value is undefined:' + view.right;
 });
 
 win.add(view);

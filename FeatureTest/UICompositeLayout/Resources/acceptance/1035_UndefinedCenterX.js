@@ -1,5 +1,4 @@
-// Create a view and do not set center.x, call center.x value
-// View should be full screen and return the center horizontal point
+//Create a Ti.UI.View and do not set center.x, call center.x value (static/dynamic) 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -18,9 +17,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('open', function(e){
 	centerX = (view.rect.left + (view.size.width/2));
-	label.text = 'View Center.x: '+centerX+'\n'+
-				'Pass if Center.x is returned\n'+
-				'and yellow view fills the window';
+	label.text = 'View Dynamic CenterX value: '+ centerX +'\n Static CenterX Value is undefined:' + view.center.x;
 });
 
 win.add(view);

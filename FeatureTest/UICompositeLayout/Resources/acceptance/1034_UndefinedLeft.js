@@ -1,5 +1,4 @@
-// Create a view and do not set the left and set center.x to 80 and right to 200, call left value
-// View should display 80 as the center point and left value as 40
+// Create a view and do not set the left and set center.x to 80 and width to 120, call left value (static/dynamic) 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -19,8 +18,7 @@ var view = Ti.UI.createView({
 });
 
 win.addEventListener('open', function(e){
-	label.text = 'View Center.x: '+view.center.x+' Left: '+view.rect.left+
-				'\nPass if Center.x: 80 Left: 20';
+	label.text = 'View Dynamic Left value: '+view.rect.left + '=20' +'\n Static Left Value is undefined:' + view.left;
 });
 
 win.add(view);

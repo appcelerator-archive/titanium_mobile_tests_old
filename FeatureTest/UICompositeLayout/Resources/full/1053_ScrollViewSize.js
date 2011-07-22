@@ -1,6 +1,4 @@
-// Create a scroll view and put a very high view in it so that it requires 
-//vertical scroll and set contentHeight to auto
-// View should fill the screen and display the scroll view   
+// Create a Label with scroll view and do not put any content 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -13,21 +11,24 @@ var label = Ti.UI.createLabel({
 	color: 'black'
 });
 
+var label2 = Ti.UI.createLabel({
+	color: 'red'
+})
 var scrollView = Titanium.UI.createScrollView({
     contentHeight:'auto',
+    contentWidth:'auto',
     showVerticalScrollIndicator:true,
     showHorizontalScrollIndicator:true
 });
-var view = Ti.UI.createView({
-    backgroundColor:'gray',
-    height: 1000
-});
 
-scrollView.add(view);
+var view = Titanium.UI.createView();
+
+label2.add(scrollView);
 
 win.addEventListener('open', function(e){
-	label.text = 'Pass if gray view fills the screen and scrolls up and down';
+	label.text = 'Scroll View height: ' + scrollView.size.height + ' width: ' + scrollView.size.width;
 });
 
-win.add(scrollView);
+win.add(label2);
+win.add(view);
 view.add(label);

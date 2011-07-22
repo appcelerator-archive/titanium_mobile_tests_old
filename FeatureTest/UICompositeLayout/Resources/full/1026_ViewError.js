@@ -1,4 +1,4 @@
-// Create a vew and set the left, right, top, bottom, center, width and height value to a string and call the value for all
+// Create a view and set the left, right, top, bottom, center, width and height value to a string and call the value for all
 // View should fill the window and value should be returned
 
 var win = Ti.UI.currentWindow;
@@ -9,7 +9,7 @@ var label = Ti.UI.createLabel({
 	left: 10,
 /*	height: 40,*/
 	width: 300,
-	color: 'white'
+	color: 'red'
 });
 var view = Ti.UI.createView({
 	backgroundColor: 'green',
@@ -17,9 +17,9 @@ var view = Ti.UI.createView({
 	right: 'rightString',
 	top: 'topString',
 	bottom: 'bottomString',
-	center: 'centerString',
 	width: 'widthString',
-	height: 'heightString'
+	height: 'heightString',
+	center: {x:'centerXString', y:'centerYString'},
 });
 
 win.addEventListener('open', function(e){
@@ -30,7 +30,7 @@ win.addEventListener('open', function(e){
 			'center: x: '+view.center.x+' y: '+view.center.y+'\n'+
 			'width: '+view.width+'\n'+
 			'height: '+view.height+'\n\n'+
-			'Pass if green view fills window and all values are returned';
+			'Pass if green view fills window and all values strings returned';
 });
 
 win.add(view);

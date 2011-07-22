@@ -1,5 +1,4 @@
-// Create a view and do not set the height and set the top to 5 and bottom to 10, call height value 
-// View should be 5 units in height and return height value 
+// Create a view and do not set the height and set the top to 5 and bottom to 10, call height value(static/dynamic) 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -19,8 +18,7 @@ var view = Ti.UI.createView({
 });
 
 win.addEventListener('open', function(e){
-	label.text = 'View Height: '+view.height+
-				'\nPass if Height is returned';
+	label.text = 'View Dynamic Height value: '+ view.rect.bottom +'-'+ view.rect.top + '=' + view.size.height+'\n Static Height Value is undefined:' + view.height;
 });
 
 win.add(view);

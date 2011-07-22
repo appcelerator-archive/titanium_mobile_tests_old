@@ -18,8 +18,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('open', function(e){
 	centerY = (view.rect.top + (view.size.height/2));
-	label.text = 'View Center.y: '+centerY+
-				'\nPass if Center.y is returned';
+	label.text = 'View Dynamic CenterY value: '+ centerY +'\n Static CenterY Value is undefined:' + view.center.y;
 });
 
 win.add(view);

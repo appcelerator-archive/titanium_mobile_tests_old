@@ -12,6 +12,7 @@ var data = [
 	{title:'1024_ViewHeight', hasChild:true, url:'./acceptance/1024_ViewHeight.js'},
 	{title:'1027_ViewPaddingZero', hasChild:true, url:'./acceptance/1027_ViewPaddingZero.js'},
 	{title:'1030_ViewMarginZero', hasChild:true, url:'./acceptance/1030_ViewMarginZero.js'},
+	{title:'1033a_UndefinedWidthCenterRight', hasChild:true, url:'./acceptance/1033a_UndefinedWidthCenterRight.js'},
 	{title:'1034_UndefinedLeft', hasChild:true, url:'./acceptance/1034_UndefinedLeft.js'},
 	{title:'1035_UndefinedCenterX', hasChild:true, url:'./acceptance/1035_UndefinedCenterX.js'},
 	{title:'1043_LeftPrecedence', hasChild:true, url:'./acceptance/1043_LeftPrecedence.js'},
