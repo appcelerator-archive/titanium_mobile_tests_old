@@ -11,7 +11,7 @@ var data = [
 	{title:'1050_ScrollViewContentWidthAuto', hasChild:true, url:'./smoke/1050_ScrollViewContentWidthAuto.js'},
 	{title:'1064_SizeButton', hasChild:true, url:'./smoke/1064_SizeButton.js'},
 	{title:'1075_FillView', hasChild:true, url:'./smoke/1075_FillView.js'},
-	{title:'1105_zIndexZero', hasChild:true, url:'/smoke/1105_zIndexZero.js'}
+	{title:'1105_zIndexUndefined', hasChild:true, url:'/smoke/1105_zIndexUndefined.js'}
 
 	
 	

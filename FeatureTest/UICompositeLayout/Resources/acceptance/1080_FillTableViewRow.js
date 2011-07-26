@@ -4,20 +4,33 @@ var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
 
 var label = Ti.UI.createLabel({
-	text: 'Pass if table view row fills the screen',
+	text: 'Pass if table view row width fills and height sizes to the content',
 	top: 20,
 	left: 10,
 	height: 40,
 	width: 300,
 	color: 'black'
 });
-
-var row = Titanium.UI.createTableViewRow({
-	height: 'auto'	
+var table = Titanium.UI.createTableView({
+	top: 50
 });
-var view = Titanium.UI.createView({backgroundColor:'red',width:20,height:20});
-row.add(view);
+win.add(table);
 
+var row = Titanium.UI.createTableViewRow();
+var row1 = Titanium.UI.createTableViewRow();
+var row2 = Titanium.UI.createTableViewRow();
+var row3 = Titanium.UI.createTableViewRow();
 
-win.add(row);
+var view1 = Titanium.UI.createView({backgroundColor:'red',width:50,height:20});
+var view2 = Titanium.UI.createView({backgroundColor:'red',width:50,height:50});
+var view3 = Titanium.UI.createView({backgroundColor:'red',width:50,height:100});
+
+row1.add(view1);
+row2.add(view2);
+row3.add(view3);
+table.appendRow(row);
+table.appendRow(row1);
+table.appendRow(row2);
+table.appendRow(row3);
+
 win.add(label);

@@ -18,6 +18,5 @@ var view = Ti.UI.createView()
 
 view.add(webview);
 
-win.open({modal:true});
 win.add(view);
 win.add(label);

@@ -6,7 +6,7 @@ win.backgroundColor = 'white';
 var view = Ti.UI.createView();
 
 var label = Ti.UI.createLabel({
-	text: 'zIndex Value: ' + view.zIndex + ' Pass if it is 0',
+	text: 'zIndex Value: ' + view.zIndex + ' Pass if it is undefined',
 	top: 20,
 	left: 10,
 	height: 40,

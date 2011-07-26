@@ -25,7 +25,8 @@ var data = [
 	{title:'1052_ScrollViewFill', hasChild:true, url:'./full/1052_ScrollViewFill.js'},
 	{title:'1053_ScrollViewSize', hasChild:true, url:'./full/1053_ScrollViewSize.js'},
 	{title:'1054_ScrollViewContentWidthHeightAuto', hasChild:true, url:'./full/1054_ScrollViewContentWidthHeightAuto.js'},
-	{title:'1081a_FillWebViewLarge', hasChild:true, url:'./full/1081a_FillWebViewLarge.js'}
+	{title:'1081a_FillWebViewLarge', hasChild:true, url:'./full/1081a_FillWebViewLarge.js'},
+	{title:'1107_zIndexSame', hasChild:true, url:'./full/1107_zIndexSame.js'}
 ];
 
 

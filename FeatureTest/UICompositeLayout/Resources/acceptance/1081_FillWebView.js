@@ -41,13 +41,10 @@ var view2 = Ti.UI.createView({
 	width: 100
 })
 
-
-view.add(webview);
-view2.add(webview2);
-win.open({modal:true});
-border1.add(view);
-border2.add(view2);
-
 win.add(border1);
 win.add(border2);
+view.add(webview);
+view2.add(webview2);
+border1.add(view);
+border2.add(view2);
 win.add(label);

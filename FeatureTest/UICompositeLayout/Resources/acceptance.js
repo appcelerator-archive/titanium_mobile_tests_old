@@ -38,8 +38,8 @@ var data = [
 	{title:'1082_FillScrollView', hasChild:true, url:'./acceptance/1082_FillScrollView.js'},
 	{title:'1083_FillScrollableView', hasChild:true, url:'./acceptance/1083_FillScrollableView.js'},
 	{title:'1084_FillSlider', hasChild:true, url:'./acceptance/1084_FillSlider.js'},
-	{title:'1106_zIndexMultiple', hasChild:true, url:'./acceptance/1106_zIndexMultiple.js'}
-	
+	{title:'1106_zIndexMultiple', hasChild:true, url:'./acceptance/1106_zIndexMultiple.js'},
+	{title:'LayoutChange', hasChild:true, url:'./acceptance/LayoutChange.js'}
 ];
 
 

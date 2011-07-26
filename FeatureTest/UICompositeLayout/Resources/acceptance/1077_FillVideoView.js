@@ -1,7 +1,6 @@
 // Create a video view on a parent that takes the whole screen 
 
 var win = Ti.UI.currentWindow;
-//var video = win.video;
 win.backgroundColor = 'white';
 
 var label = Ti.UI.createLabel({
@@ -14,11 +13,12 @@ var label = Ti.UI.createLabel({
 });
 
 var video = Ti.Media.createVideoPlayer({
-	url: '../movie.mp4',
+	contentURL: '../movie.mp4',
 	movieControlMode:Titanium.Media.VIDEO_CONTROL_FULLSCREEN,
     scalingMode:Titanium.Media.VIDEO_SCALING_MODE_FILL
 });
 
+video.add(label);
 win.add(video);
 video.play();
-win.add(label);
+

@@ -33,7 +33,7 @@ var view2 = Ti.UI.createView({
 });
 
 var tf2=Titanium.UI.createTextField({
-	value: 'Word',
+	value: 'Sentence: This is to test the text area to display a single sentence',
 	backgroundColor: 'yellow'
 });
 
@@ -45,7 +45,7 @@ var view3 = Ti.UI.createView({
 });
 
 var tf3=Titanium.UI.createTextField({
-	value: 'Longer Word',
+	value: 'Paragraph: This is to test the text area to display a paragraph. A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. Paragraphs consist of one or more sentences. The start of a paragraph is indicated by beginning on a new line. Sometimes the first line is indented. At various times, the beginning of a paragraph has been indicated by the pilcrow',
 	backgroundColor: 'yellow'
 });
 
