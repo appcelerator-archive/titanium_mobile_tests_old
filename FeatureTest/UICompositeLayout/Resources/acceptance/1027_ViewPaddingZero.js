@@ -1,3 +1,10 @@
+
+
+
+/**
+ *  PADDING WILL NOT BE IMPLEMENTED FOR 2.0; will not be tested
+ */
+
 // Create a view and set padding to 0 for top/left/right/bottom
 // View should contain 0 unit padding
 
@@ -21,7 +28,7 @@ var innerView = Ti.UI.createView({
 });
 
 win.addEventListener('open', function(e){
-	label.text = 'View Padding value: '+view.padding+'\nPass if value is: 0';
+	label.text = 'View Padding value: '+view.padding+'\nPass if value is: undefined';
 });
 
 view.add(innerView);

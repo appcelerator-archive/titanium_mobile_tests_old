@@ -5,10 +5,10 @@ var data = [
 	{title:'1025_ViewDefault', hasChild:true, url:'./full/1025_ViewDefault.js'},
 	{title:'1025a_SizeViewDefault', hasChild:true, url:'./full/1025a_SizeViewDefault.js'},
 	{title:'1026_ViewError', hasChild:true, url:'./full/1026_ViewError.js'},
-	{title:'1028_ViewPadding', hasChild:true, url:'./full/1028_ViewPadding.js'},
-	{title:'1029_ViewPaddingDifferent', hasChild:true, url:'./full/1029_ViewPaddingDifferent.js'},
-	{title:'1031_ViewMargin', hasChild:true, url:'./full/1031_ViewMargin.js'},
-	{title:'1032_ViewMarginDifferent', hasChild:true, url:'./full/1032_ViewMarginDifferent.js'},
+	// {title:'1028_ViewPadding', hasChild:true, url:'./full/1028_ViewPadding.js'}, - PADDING WILL NOT BE IMPLEMENTED FOR 2.0
+	// {title:'1029_ViewPaddingDifferent', hasChild:true, url:'./full/1029_ViewPaddingDifferent.js'}, - PADDING WILL NOT BE IMPLEMENTED FOR 2.0
+	// {title:'1031_ViewMargin', hasChild:true, url:'./full/1031_ViewMargin.js'}, - MARGIN WILL NOT BE IMPLEMENTED FOR 2.0
+	// {title:'1032_ViewMarginDifferent', hasChild:true, url:'./full/1032_ViewMarginDifferent.js'}, - MARGINE WILL NOT BE IMPLEMENTED FOR 2.0
 	{title:'1033b_UndefinedWidthCenterRight', hasChild:true, url:'./full/1033b_UndefinedWidthCenterRight.js'},
 	{title:'1034a_UndefinedLeftCenterRight', hasChild:true, url:'./full/1034a_UndefinedLeftCenterRight.js'},
 	{title:'1034b_UndefinedLeftWidthRight', hasChild:true, url:'./full/1034b_UndefinedLeftWidthRight.js'},

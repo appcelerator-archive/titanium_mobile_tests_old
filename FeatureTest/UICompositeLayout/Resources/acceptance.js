@@ -10,8 +10,8 @@ var data = [
 	{title:'1020_ViewCenter', hasChild:true, url:'./acceptance/1020_ViewCenter.js'},
 	{title:'1022_ViewWidth', hasChild:true, url:'./acceptance/1022_ViewWidth.js'},
 	{title:'1024_ViewHeight', hasChild:true, url:'./acceptance/1024_ViewHeight.js'},
-	{title:'1027_ViewPaddingZero', hasChild:true, url:'./acceptance/1027_ViewPaddingZero.js'},
-	{title:'1030_ViewMarginZero', hasChild:true, url:'./acceptance/1030_ViewMarginZero.js'},
+	// {title:'1027_ViewPaddingZero', hasChild:true, url:'./acceptance/1027_ViewPaddingZero.js'}, - PADDING WILL NOT BE IMPLEMENTED FOR 2.0
+	// {title:'1030_ViewMarginZero', hasChild:true, url:'./acceptance/1030_ViewMarginZero.js'}, - MARGIN WILL NOT BE IMPLEMENTED FOR 2.0
 	{title:'1033a_UndefinedWidthCenterLeft', hasChild:true, url:'./acceptance/1033a_UndefinedWidthCenterLeft.js'},
 	{title:'1034_UndefinedLeft', hasChild:true, url:'./acceptance/1034_UndefinedLeft.js'},
 	{title:'1035_UndefinedCenterX', hasChild:true, url:'./acceptance/1035_UndefinedCenterX.js'},

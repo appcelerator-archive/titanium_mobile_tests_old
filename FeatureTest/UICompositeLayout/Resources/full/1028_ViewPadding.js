@@ -1,3 +1,11 @@
+
+
+
+
+/**
+ *  PADDING WILL NOT BE IMPLEMENTED FOR 2.0; will not be tested
+ */
+
 // Create a view and set padding to 10 for top/left/right/bottom
 // View should contain 10 unit padding
 
