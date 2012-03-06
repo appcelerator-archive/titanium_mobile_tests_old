@@ -21,11 +21,12 @@ win.addEventListener('open', function(e){
 			'right: '+view.right+'\n'+
 			'top: '+view.top+'\n'+
 			'bottom: '+view.bottom+'\n'+
-			'center: x'+view.center.x+' y: '+view.center.y+'\n'+
+			'center: ' + view.center +'\n'+
 			'width: '+view.width+'\n'+
 			'height: '+view.height+'\n\n'+
 			'Pass if view fills window and all values are undefined';
 });
+
 
 win.add(view);
 win.add(label);

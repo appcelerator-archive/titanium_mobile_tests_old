@@ -25,15 +25,19 @@ var view = Ti.UI.createView({
 	backgroundColor: 'green'
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
+
 	label.text = 'left: '+labelTest.left+'\n'+
 			'right: '+labelTest.right+'\n'+
 			'top: '+labelTest.top+'\n'+
 			'bottom: '+labelTest.bottom+'\n'+
-			'center: x'+labelTest.center.x+' y: '+labelTest.center.y+'\n'+
+			'center: '+labelTest.center + '\n'+
 			'width: '+labelTest.width+'\n'+
 			'height: '+labelTest.height+'\n\n'+
 			'Pass if all values are undefined';
+
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 

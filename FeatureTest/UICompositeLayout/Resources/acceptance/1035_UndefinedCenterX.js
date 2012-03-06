@@ -15,9 +15,13 @@ var view = Ti.UI.createView({
 	backgroundColor: 'yellow'
 });
 
-win.addEventListener('open', function(e){
-	centerX = (view.rect.left + (view.size.width/2));
-	label.text = 'View Dynamic CenterX value: '+ centerX +'\n Static CenterX Value is undefined:' + view.center.x;
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
+	
+	centerX = (view.rect.x + (view.size.width/2));
+	label.text = 'View Dynamic CenterX value: '+ centerX +'\n Static Center Value is undefined:' + view.center
+	
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view);
