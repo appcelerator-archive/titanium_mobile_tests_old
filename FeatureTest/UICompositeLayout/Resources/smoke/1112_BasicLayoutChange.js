@@ -1,5 +1,5 @@
 // Changing a view's property using one request for a single layout
-// The red squre should become a rectangle and move closer to the right-hand corner
+// The red squre should become a rectangle and move closer to the left-hand corner
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
