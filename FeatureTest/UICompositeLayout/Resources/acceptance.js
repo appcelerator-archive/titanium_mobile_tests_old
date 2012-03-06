@@ -36,6 +36,7 @@ var data = [
 	{title:'1080_FillTableViewRow', hasChild:true, url:'./acceptance/1080_FillTableViewRow.js'},
 	{title:'1081_FillWebView', hasChild:true, url:'./acceptance/1081_FillWebView.js'},
 	{title:'1082_FillScrollView', hasChild:true, url:'./acceptance/1082_FillScrollView.js'},
+	{title:'1082a_FillScrollView', hasChild:true, url:'./acceptance/1082a_FillScrollView.js'},
 	{title:'1083_FillScrollableView', hasChild:true, url:'./acceptance/1083_FillScrollableView.js'},
 	{title:'1084_FillSlider', hasChild:true, url:'./acceptance/1084_FillSlider.js'},
 	{title:'1106_zIndexMultiple', hasChild:true, url:'./acceptance/1106_zIndexMultiple.js'},
