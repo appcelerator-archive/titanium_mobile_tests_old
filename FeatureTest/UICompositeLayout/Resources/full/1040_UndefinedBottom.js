@@ -18,8 +18,10 @@ var view = Ti.UI.createView({
 	top: 10
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Dynamic CenterY value: '+ view.rect.bottom +'\n Static CenterY Value is undefined:' + view.bottom;
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view);

@@ -22,8 +22,10 @@ var label = Ti.UI.createLabel({
 });
 
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'Will be controlled by the parent view and bottom value is ignored';
+	win.addEventListener('postlayout', layoutHandler);
 });
 view.add(viewChild);
 win.add(view);

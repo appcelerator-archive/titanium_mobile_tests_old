@@ -19,8 +19,10 @@ var label = Ti.UI.createLabel({
 });
 
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Height value: '+view.size.height+'\nPass if the value is 40 and \n10 units shifted to the down';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view);

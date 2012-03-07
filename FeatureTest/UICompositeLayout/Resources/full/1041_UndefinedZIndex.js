@@ -28,8 +28,10 @@ var view2 = Ti.UI.createView({
 	width: 40
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'Pass if the orange view is on top of the blue view';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view1);

@@ -17,8 +17,10 @@ var view = Ti.UI.createView({
 	center: {x:10}
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Dynamic Width value: '+ view.rect.right +'-'+ view.rect.left + '=' + view.size.width+'\n Static Width Value is undefined:' + view.width;
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view);

@@ -24,8 +24,10 @@ var label = Ti.UI.createLabel({
 });
 
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Width value: '+viewChild.size.width+'\nPass if the value is 100 and \nthe red is centered to yellow';
+	win.addEventListener('postlayout', layoutHandler);
 });
 view.add(viewChild);
 win.add(view);

@@ -16,7 +16,8 @@ var view = Ti.UI.createView({
 	backgroundColor: 'green'
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'left: '+view.left+'\n'+
 			'right: '+view.right+'\n'+
 			'top: '+view.top+'\n'+
@@ -25,6 +26,7 @@ win.addEventListener('open', function(e){
 			'width: '+view.width+'\n'+
 			'height: '+view.height+'\n\n'+
 			'Pass if view fills window and all values are undefined';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 

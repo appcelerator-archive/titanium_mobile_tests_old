@@ -19,7 +19,7 @@ win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
 	
 	centerX = (view.rect.x + (view.size.width/2));
-	label.text = 'View Dynamic CenterX value: '+ centerX +'\n Static Center Value is undefined:' + view.center
+	label.text = 'View Dynamic CenterX value: '+ centerX +'\n Static Center Value is undefined:' + view.center;
 	
 	win.addEventListener('postlayout', layoutHandler);
 });

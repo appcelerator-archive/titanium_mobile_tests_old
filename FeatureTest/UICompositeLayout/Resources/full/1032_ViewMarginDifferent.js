@@ -32,13 +32,15 @@ var innerView = Ti.UI.createView({
 	margin: {top:1, left:2, right:3, bottom:4}
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View margin values\n'+
 				'Top: '+view.margin.top+'\n'+
 				'Left: '+view.margin.left+'\n'+
 				'Right: '+view.margin.right+'\n'+
 				'Bottom: '+view.margin.bottom+'\n'+
 				'Pass if values are: 1/2/3/4';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 view.add(innerView);

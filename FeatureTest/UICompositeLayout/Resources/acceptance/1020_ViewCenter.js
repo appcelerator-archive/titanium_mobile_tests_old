@@ -19,9 +19,11 @@ var view = Ti.UI.createView({
 	center: {x:50,y:50}
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Center values: '+view.center.x+' and '+view.center.y+'\nPass if values are returned'+
 					' and the green view is at the top left';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(label);

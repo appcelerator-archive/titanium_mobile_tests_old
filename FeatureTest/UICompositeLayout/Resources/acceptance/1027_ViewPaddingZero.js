@@ -27,8 +27,10 @@ var innerView = Ti.UI.createView({
 	backgroundColor: 'green'
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Padding value: '+view.padding+'\nPass if value is: undefined';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 view.add(innerView);

@@ -32,8 +32,10 @@ var innerView = Ti.UI.createView({
 	margin: 10
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Margin value: '+innerView.margin+'\nPass if value is: 10';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 view.add(innerView);

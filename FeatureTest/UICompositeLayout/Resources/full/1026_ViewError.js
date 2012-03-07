@@ -22,7 +22,8 @@ var view = Ti.UI.createView({
 	center: {x:'centerXString', y:'centerYString'},
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'left: '+view.left+'\n'+
 			'right: '+view.right+'\n'+
 			'top: '+view.top+'\n'+
@@ -31,6 +32,7 @@ win.addEventListener('open', function(e){
 			'width: '+view.width+'\n'+
 			'height: '+view.height+'\n\n'+
 			'Pass if green view fills window and all values strings returned';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view);

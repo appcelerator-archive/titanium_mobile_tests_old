@@ -19,8 +19,10 @@ var label = Ti.UI.createLabel({
 });
 
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Width value: '+view.size.width+'\nPass if the value is 10 and \n10 units shifted to the right';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view);

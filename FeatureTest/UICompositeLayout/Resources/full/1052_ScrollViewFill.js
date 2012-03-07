@@ -26,8 +26,10 @@ var view2 = Ti.UI.createView({
 
 scrollView.add(view2);
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'Scroll View height: ' + scrollView.size.height + ' width: ' + scrollView.size.width;
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(scrollView);

@@ -25,8 +25,10 @@ var view = Ti.UI.createView({
 
 scrollView.add(view);
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'Pass if gray view fills the screen and scrolls left and right';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(scrollView);

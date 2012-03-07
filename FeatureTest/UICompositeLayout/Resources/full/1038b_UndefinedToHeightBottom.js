@@ -17,8 +17,10 @@ var view = Ti.UI.createView({
 	height: 100
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Dynamic Top value: '+ view.rect.top + '\n Static Height Value is undefined:' + view.top;
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view);

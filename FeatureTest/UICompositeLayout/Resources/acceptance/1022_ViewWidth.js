@@ -17,8 +17,10 @@ var view = Ti.UI.createView({
 	width: 10
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Width value: '+view.width+'\nPass if value is: 10';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view);

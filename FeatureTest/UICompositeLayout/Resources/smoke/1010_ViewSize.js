@@ -15,8 +15,10 @@ var view = Ti.UI.createView({
 	backgroundColor: 'green'
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Size values: '+view.size.width+' by '+view.size.height+'\nPass if values are returned';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 view.add(label);

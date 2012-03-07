@@ -17,8 +17,10 @@ var view = Ti.UI.createView({
 	center: {y:5}
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Dynamic Height value: '+ view.rect.bottom +'-'+ view.rect.top + '=' + view.size.height+'\n Static Height Value is undefined:' + view.height;
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view);

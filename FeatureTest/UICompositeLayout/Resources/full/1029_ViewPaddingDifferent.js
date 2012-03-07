@@ -28,13 +28,15 @@ var innerView = Ti.UI.createView({
 	backgroundColor: 'green'
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Padding values\n'+
 				'Top: '+view.padding.top+'\n'+
 				'Left: '+view.padding.left+'\n'+
 				'Right: '+view.padding.right+'\n'+
 				'Bottom: '+view.padding.bottom+'\n'+
 				'Pass if values are: 1/2/3/4';
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 view.add(innerView);

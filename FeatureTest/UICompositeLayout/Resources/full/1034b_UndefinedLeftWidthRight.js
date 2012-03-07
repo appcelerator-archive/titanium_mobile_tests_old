@@ -17,8 +17,10 @@ var view = Ti.UI.createView({
 	right: 80
 });
 
-win.addEventListener('open', function(e){
+win.addEventListener('postlayout', function layoutHandler(e) {
+	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'View Dynamic Left value: '+view.rect.left +'\n Static Left Value is undefined:' + view.left;
+	win.addEventListener('postlayout', layoutHandler);
 });
 
 win.add(view);
