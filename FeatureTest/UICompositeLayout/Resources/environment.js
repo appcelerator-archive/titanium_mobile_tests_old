@@ -11,13 +11,16 @@ data+= 'Description: ' + Titanium.App.getDescription() + '\n';
 data+= 'Copyright: ' + Titanium.App.getCopyright() + '\n';
 data+= 'GUID: ' + Titanium.App.getGUID() + '\n';
 data+= 'Build: ' + Titanium.version + '.' + Titanium.buildHash + ' (' + Titanium.buildDate + ')\n';
+data+= 'Runtime: ' + Titanium.Platform.runtime + '\n';
 data+= 'Display caps density: ' + Titanium.Platform.displayCaps.density + '\n';
 data+= 'Platform & Version: ' + Titanium.Platform.name + ' ' + Titanium.Platform.version;
+
+var fontSize = (Ti.Platform.osname === 'android') ? 16 : 14;
 
 var label1 = Titanium.UI.createLabel({
 	color:'#222',
 	text:data,
-	font:{fontSize:12,fontFamily:'Helvetica Neue'},
+	font:{fontSize:fontSize,fontFamily:'Helvetica Neue'},
 	textAlign:'left',
 	width:'auto',
 	height:'auto',
