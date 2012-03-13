@@ -2,7 +2,7 @@
 
 var win = Ti.UI.currentWindow;
 var label = Ti.UI.createLabel({
-	text: 
+	text: "THIS IS INVALID"
 });
 var rect = Ti.UI.createRect({left:0, top:0, width:20, height:0});
 
