@@ -7,8 +7,8 @@ var label = Ti.UI.createLabel({
 	text: 'Toolbar should fill the view area, last one will not have side border',
 	top: 20,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 

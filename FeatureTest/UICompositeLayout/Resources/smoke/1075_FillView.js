@@ -8,8 +8,8 @@ var label = Ti.UI.createLabel({
 	text: 'Green screen = Pass \n Any Red = Fail',
 	top: 20,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 var view = Ti.UI.createView({

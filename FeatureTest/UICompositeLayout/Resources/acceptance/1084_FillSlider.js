@@ -7,8 +7,8 @@ var label = Ti.UI.createLabel({
 	text: 'Slider should be the length of the parent background color',
 	top: 20,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 

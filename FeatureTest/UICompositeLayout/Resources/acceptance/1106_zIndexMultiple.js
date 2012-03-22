@@ -14,8 +14,8 @@ var label = Ti.UI.createLabel({
 	text: 'zIndex Value: ' + view1.zIndex + view2.zIndex + view3.zIndex + view4.zIndex + view5.zIndex + ' Pass if it is 01234',
 	top: 100,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 

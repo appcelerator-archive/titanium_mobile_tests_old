@@ -14,7 +14,7 @@ var data = [
 	// {title:'1030_ViewMarginZero', hasChild:true, url:'./acceptance/1030_ViewMarginZero.js'}, - MARGIN WILL NOT BE IMPLEMENTED FOR 2.0
 	{title:'1033a_UndefinedWidthCenterLeft', hasChild:true, url:'./acceptance/1033a_UndefinedWidthCenterLeft.js'},
 	{title:'1034_UndefinedLeft', hasChild:true, url:'./acceptance/1034_UndefinedLeft.js'},
-	{title:'1035_UndefinedCenterX', hasChild:true, url:'./acceptance/1035_UndefinedCenterX.js'},
+	// {title:'1035_UndefinedCenterX', hasChild:true, url:'./acceptance/1035_UndefinedCenterX.js'}, - INVALID TEST CASE
 	{title:'1043_LeftPrecedence', hasChild:true, url:'./acceptance/1043_LeftPrecedence.js'},
 	{title:'1044_CenterXPrecedence', hasChild:true, url:'./acceptance/1044_CenterXPrecedence.js'},
 	{title:'1047_TopPrecedence', hasChild:true, url:'./acceptance/1047_TopPrecedence.js'},

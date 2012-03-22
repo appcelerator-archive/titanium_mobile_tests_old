@@ -7,8 +7,8 @@ win.backgroundColor = 'white';
 var button = Ti.UI.createButton({
 	title: 'No Change',
 	top: 20,
-	width: 100,
-	height:50
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
 });
 win.add(button)
 

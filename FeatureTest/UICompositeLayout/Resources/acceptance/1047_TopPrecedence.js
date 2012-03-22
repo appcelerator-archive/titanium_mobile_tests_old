@@ -13,8 +13,8 @@ var view = Ti.UI.createView({
 var label = Ti.UI.createLabel({
 	top: 20,
 	left: 10,
-	height: 60,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 

@@ -8,7 +8,8 @@ var label = Ti.UI.createLabel({
   text: 'View Size is: ',
   top: 20,
   left: 10,
-  height: 200,
+  height: Ti.UI.SIZE,
+  width: Ti.UI.SIZE,
   color: 'black'
 });
 

@@ -11,7 +11,7 @@ var label = Ti.UI.createLabel({
 	top: 20,
 	left: 10,
 /*	height: 40,*/
-	width: 300,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 

@@ -7,8 +7,8 @@ var label = Ti.UI.createLabel({
 	text: 'Pass if table view row width fills and height sizes to the content',
 	top: 20,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 var table = Titanium.UI.createTableView({

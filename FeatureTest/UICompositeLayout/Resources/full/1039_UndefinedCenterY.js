@@ -1,3 +1,4 @@
+// INVALID TEST CASE
 // Create a view and do not set the center.y, call center.y value  
 // View should fill screen and return the center vertical point 
 
@@ -8,8 +9,8 @@ var label = Ti.UI.createLabel({
 	text: 'View Size is: ',
 	top: 20,
 	left: 10,
-	height: 200,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 var view = Ti.UI.createView({
@@ -20,7 +21,7 @@ win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
 
 	centerY = (view.rect.y + (view.size.height/2));
-	label.text = 'View Dynamic CenterY value: '+ centerY +'\n Static Center Value is undefined:' + view.center;
+	label.text = 'View Dynamic CenterY value: '+ centerY + '\n Static Center Value is undefined:' + view.center;
 
 	win.addEventListener('postlayout', layoutHandler);
 });

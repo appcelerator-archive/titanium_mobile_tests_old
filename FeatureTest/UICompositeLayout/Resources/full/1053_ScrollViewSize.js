@@ -7,7 +7,8 @@ var label = Ti.UI.createLabel({
 	text: 'View Size is: ',
 	top: 20,
 	left: 10,
-	height: 200,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 
@@ -18,13 +19,14 @@ var scrollView = Titanium.UI.createScrollView({
     contentHeight:'auto',
     contentWidth:'auto',
     showVerticalScrollIndicator:true,
-    showHorizontalScrollIndicator:true
+    showHorizontalScrollIndicator:true,
+    width:Ti.UI.SIZE,
+    height:Ti.UI.SIZE
 });
 
 var view = Titanium.UI.createView();
 
 label2.add(scrollView);
-
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
 	label.text = 'Scroll View height: ' + scrollView.size.height + ' width: ' + scrollView.size.width;

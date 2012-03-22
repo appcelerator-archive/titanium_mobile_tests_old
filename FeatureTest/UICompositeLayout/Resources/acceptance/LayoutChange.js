@@ -6,21 +6,21 @@ win.backgroundColor = 'white';
 var buttonStart = Ti.UI.createButton({
 	title: 'Start',
 	top: 20,
-	width: 100,
-	height:50
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
 
 });
 var buttonFinish = Ti.UI.createButton({
 	title: 'Finish',
 	top: 80,
-	width: 100,
-	height:50	
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE	
 });
 var buttonUpdate = Ti.UI.createButton({
 	title: 'Update',
 	top: 140,
-	width: 100,
-	height:50
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
 });
 
 buttonStart.addEventListener('click', function()

@@ -22,8 +22,8 @@ var label1 = Titanium.UI.createLabel({
 	text:data,
 	font:{fontSize:fontSize,fontFamily:'Helvetica Neue'},
 	textAlign:'left',
-	width:'auto',
-	height:'auto',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	top:10
 });
 

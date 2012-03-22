@@ -14,13 +14,15 @@ var data = [
 	{title:'1033b_UndefinedWidthCenterRight', hasChild:true, url:'./full/1033b_UndefinedWidthCenterRight.js'},
 	{title:'1034a_UndefinedLeftCenterRight', hasChild:true, url:'./full/1034a_UndefinedLeftCenterRight.js'},
 	{title:'1034b_UndefinedLeftWidthRight', hasChild:true, url:'./full/1034b_UndefinedLeftWidthRight.js'},
-	{title:'1036_UndefinedRight', hasChild:true, url:'./full/1036_UndefinedRight.js'},
+	// {title:'1036_UndefinedRight', hasChild:true, url:'./full/1036_UndefinedRight.js'}, - INVALID TEST CASE
 	{title:'1037_UndefinedHeight', hasChild:true, url:'./full/1037_UndefinedHeight.js'},
+	{title:'1037a_UndefinedHeightCenterBottom', hasChild:true, url:'./full/1037a_UndefinedHeightCenterBottom.js'},
+	{title:'1037b_UndefinedHeightCenterTop', hasChild:true, url:'./full/1037b_UndefinedHeightCenterTop.js'},
 	{title:'1038_UndefinedTop', hasChild:true, url:'./full/1038_UndefinedTop.js'},
 	{title:'1038a_UndefinedTopCenterBottom', hasChild:true, url:'./full/1038a_UndefinedTopCenterBottom.js'},
 	{title:'1038b_UndefinedToHeightBottom', hasChild:true, url:'./full/1038b_UndefinedToHeightBottom.js'},
-	{title:'1039_UndefinedCenterY', hasChild:true, url:'./full/1039_UndefinedCenterY.js'},
-	{title:'1040_UndefinedBottom', hasChild:true, url:'./full/1040_UndefinedBottom.js'},
+	// {title:'1039_UndefinedCenterY', hasChild:true, url:'./full/1039_UndefinedCenterY.js'}, - INVALID TEST CASE
+	// {title:'1040_UndefinedBottom', hasChild:true, url:'./full/1040_UndefinedBottom.js'}, - INVALID TEST CASE
 	{title:'1041_UndefinedZIndex', hasChild:true, url:'./full/1041_UndefinedZIndex.js'},
 	{title:'1045_CenterXPrecedenceOffScreen', hasChild:true, url:'./full/1045_CenterXPrecedenceOffScreen.js'},
 	{title:'1049_CenterYPrecedenceOffScreen', hasChild:true, url:'./full/1049_CenterYPrecedenceOffScreen.js'},

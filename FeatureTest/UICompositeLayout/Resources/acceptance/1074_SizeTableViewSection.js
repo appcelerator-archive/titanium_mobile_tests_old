@@ -8,8 +8,8 @@ var label = Ti.UI.createLabel({
 	text: 'Pass if Section 1 has 1 row, Section 2 has 2 rows , and Section 3 has 3 rows',
 	top: 20,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 

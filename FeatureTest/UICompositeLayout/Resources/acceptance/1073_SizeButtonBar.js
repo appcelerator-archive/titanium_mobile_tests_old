@@ -8,8 +8,8 @@ var label = Ti.UI.createLabel({
 	text: 'Pass if text fields (yellow) are as wide enough to handle the text in them, but not outside the view (green)',
 	top: 20,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 

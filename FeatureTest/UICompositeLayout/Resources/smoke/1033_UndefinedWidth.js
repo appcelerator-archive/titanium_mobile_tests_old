@@ -7,8 +7,8 @@ var label = Ti.UI.createLabel({
 	text: 'View Size is: ',
 	top: 20,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 var view = Ti.UI.createView({
@@ -19,7 +19,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Dynamic Width value: '+ view.rect.right +'-'+ view.rect.left + '=' + view.size.width+'\n Static Width Value is undefined:' + view.width;
+	label.text = 'View Dynamic Width value: '+ win.size.width +'-'+ view.left + '-' + view.right + '=' + view.size.width+'\n Static Width Value is undefined:' + view.width;
 	win.addEventListener('postlayout', layoutHandler);
 });
 

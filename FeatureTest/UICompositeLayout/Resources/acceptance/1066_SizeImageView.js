@@ -8,8 +8,8 @@ var label = Ti.UI.createLabel({
 	text: 'Image View should auto size to image, but stay within red',
 	top: 20,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 

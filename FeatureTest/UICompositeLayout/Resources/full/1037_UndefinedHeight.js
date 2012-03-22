@@ -7,8 +7,8 @@ var label = Ti.UI.createLabel({
 	text: 'View Size is: ',
 	top: 20,
 	left: 10,
-	height: 200,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 var view = Ti.UI.createView({
@@ -19,7 +19,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Dynamic Height value: '+ view.rect.bottom +'-'+ view.rect.top + '=' + view.size.height+'\n Static Height Value is undefined:' + view.height;
+	label.text = 'View Dynamic Height value: '+ win.rect.y + '+' + win.rect.height + '-'+ view.top + '-' + view.bottom + '=' + view.size.height+'\n Static Height Value is undefined:' + view.height;
 	win.addEventListener('postlayout', layoutHandler);
 });
 

@@ -12,8 +12,8 @@ var label = Ti.UI.createLabel({
 	text: 'view.bottom: ' + view.bottom +' The red view should be shifted 10 system units up',
 	top: 20,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 

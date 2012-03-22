@@ -7,8 +7,8 @@ var label = Ti.UI.createLabel({
 	text: 'Pass if web view loads and a black border is displayed',
 	top: 20,
 	left: 10,
-	height: 40,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 

@@ -9,8 +9,8 @@ if(Ti.Platform.osname === 'android') {
 	var notLabel = Ti.UI.createLabel({
 		color:'black',
 		text:text,
-		width:'auto',
-		height:'auto'
+		height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE
 	});
 	
 	win.add(notLabel);
@@ -20,8 +20,8 @@ else {
 		text: 'Pass if you can scroll all the way down\nand to the right and see "END"',
 		top: 20,
 		left: 10,
-		height: 'auto',
-		width: 'auto',
+		height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE,
 		color: 'black'
 	});
 	
@@ -29,8 +29,8 @@ else {
 		text: 'END',
 		top: 1950,
 		left: 730,
-		height: 40,
-		width: 300,
+		height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE,
 		color: 'black'
 	});
 	

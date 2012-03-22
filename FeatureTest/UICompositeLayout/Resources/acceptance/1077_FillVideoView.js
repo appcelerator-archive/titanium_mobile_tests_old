@@ -7,8 +7,8 @@ var label = Ti.UI.createLabel({
 	text: 'Pass if video fills the screen',
 	top: 40,
 	left: 10,
-	height: 60,
-	width: 300,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
 	color: 'black'
 });
 
