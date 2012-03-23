@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">wEZmsoTBXC0d5kn6YWBDiMrdg27yjN2F</property>
+    <property name="acs-oauth-key-production" type="string">AhvM3EnGgAJIbEbto3D6YSyt835RtA0D</property>
+    <property name="acs-api-key-production" type="string">QFneUYZwoaq3BARPLkc6r14TtO2s8NIY</property>
+    <property name="acs-oauth-secret-development" type="string">glkyT9lY6VbSepIdOlZAZqCBKwY6OZKs</property>
+    <property name="acs-oauth-key-development" type="string">3ZWuPk5SWZ9GfRLqdx14cUP7Sn3UBf1n</property>
+    <property name="acs-api-key-development" type="string">C8HIZvbzkusqAbVJ4EOfEpOycmCp7HKv</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.0.0.v20120321231752</sdk-version>
+    <id>com.appcelerator.UCL1099</id>
+    <name>UCL_1099</name>
+    <version>1.0</version>
+    <publisher>wluu</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by wluu</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>9764e88a-bc73-4757-a70c-35715e9f4898</guid>
+    <property name="ti.ui.defaultunit">mm</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.0">ti.cloud</module>
+    </modules>
+</ti:app>
