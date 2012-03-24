@@ -1,3 +1,4 @@
+// CURRENTLY INVALID TEST FOR SDK BUILD 2.0.0.v20120323221800; STILL IN DEPRECATION CYCLE
 // Create a view where only one layout request is made between the startLayout() and finishLayout() call even though there are multiple invalid property changes
 // The red square should be closer to the left hand corner
 

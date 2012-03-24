@@ -1,3 +1,4 @@
+// CURRENTLY INVALID TEST FOR SDK BUILD 2.0.0.v20120323221800; STILL IN DEPRECATION CYCLE
 // Create a view where a layout request is made before startLayout() and after finishLayout() 
 // The red square should remain the same
 

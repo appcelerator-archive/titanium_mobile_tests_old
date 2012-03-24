@@ -31,8 +31,8 @@ var data = [
 	{title:'1054_ScrollViewContentWidthHeightAuto', hasChild:true, url:'./full/1054_ScrollViewContentWidthHeightAuto.js'},
 	{title:'1081a_FillWebViewLarge', hasChild:true, url:'./full/1081a_FillWebViewLarge.js'},
 	{title:'1107_zIndexSame', hasChild:true, url:'./full/1107_zIndexSame.js'},
-	{title:'1113_OutsideLayoutChange', hasChild:true, url:'./full/1113_OutsideLayoutChange.js'},
-	{title:'1114_BetweenLayoutChange', hasChild:true, url:'./full/1114_BetweenLayoutChange.js'},
+	// {title:'1113_OutsideLayoutChange', hasChild:true, url:'./full/1113_OutsideLayoutChange.js'}, - INVALID TEST CASE; IN DEPRECATION CYCLE
+	// {title:'1114_BetweenLayoutChange', hasChild:true, url:'./full/1114_BetweenLayoutChange.js'}, - INVALID TEST CASE; IN DEPRECATION CYCLE
 ];
 
 
