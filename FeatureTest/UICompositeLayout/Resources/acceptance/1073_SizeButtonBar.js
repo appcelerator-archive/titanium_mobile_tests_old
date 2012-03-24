@@ -1,11 +1,11 @@
-// Create a text field on a parent that is width and height constrained 
-// See that the text field sizes itself accordingly 
+// Create a ButtonBar on a parent that is width and height constrained 
+// See that the ButtonBar sizes itself accordingly 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
 
 var label = Ti.UI.createLabel({
-	text: 'Pass if text fields (yellow) are as wide enough to handle the text in them, but not outside the view (green)',
+	text: 'Pass if ButtonBar are as wide enough to handle the text in them, but not outside the view (green)',
 	top: 20,
 	left: 10,
 	height: Ti.UI.SIZE,
@@ -14,8 +14,8 @@ var label = Ti.UI.createLabel({
 });
 
 var view1 = Ti.UI.createView({
-	height: 30,
-	width: 60,
+	height: 40,
+	width: 80,
 	top: 80,
 	backgroundColor: 'green'
 });
