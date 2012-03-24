@@ -13,13 +13,13 @@ var label = Ti.UI.createLabel({
 });
 var view = Ti.UI.createView({
 	backgroundColor: 'yellow',
-	bototm: 200,
+	bottom: 200,
 	height: 100
 });
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Dynamic Top value: '+ view.rect.y + '\n Static Top Value is undefined:' + view.top;
+	label.text = 'Yellow view should be 200 units from the bottom and is: '+ view.bottom +'\nYellow view dynamic top value: '+ view.rect.y + '\nStatic top value should be undefined and is: ' + view.top;
 	win.addEventListener('postlayout', layoutHandler);
 });
 
