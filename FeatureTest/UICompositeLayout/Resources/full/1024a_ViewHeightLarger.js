@@ -14,7 +14,7 @@ width: '150px'
 var view2 = Ti.UI.createView({ backgroundColor: 'blue', height: '180px', width: '75px', }); 
 
 var label = Ti.UI.createLabel({ top: 20, left: 10, height: Ti.UI.SIZE, width: Ti.UI.SIZE, color: 'black' });
-label.text = 'The blue rectangle should stay within the yellow square:';
+label.text = 'The blue rectangle (vertical) should be contained within the yellow square';
 
 view.add(view2);
 win.add(view);
