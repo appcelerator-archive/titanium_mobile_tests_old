@@ -17,7 +17,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Size values: '+view.size.width+' by '+view.size.height+'\nPass if values are returned';
+	label.text = 'View Size values, width: '+view.size.width+' height '+view.size.height+'\nPasses if width and height values are returned';
 	win.addEventListener('postlayout', layoutHandler);
 });
 
