@@ -19,7 +19,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Height value: '+view.height+'\nPass if value is: 10';
+	label.text = 'Green view.height value should be 10 and is: '+view.height;
 	win.addEventListener('postlayout', layoutHandler);
 });
 
