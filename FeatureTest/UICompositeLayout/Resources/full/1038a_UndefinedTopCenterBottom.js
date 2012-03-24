@@ -19,7 +19,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Dynamic Top value: '+ view.rect.y + '\n Static Top Value is undefined:' + view.top;
+	label.text = 'Yellow view.center value should be 50 and is: '+ view.venter +'\nYellow view dynamic top value should be negative: '+ view.rect.y + '\nStatic top value should be undefined and is: ' + view.top;
 	win.addEventListener('postlayout', layoutHandler);
 });
 
