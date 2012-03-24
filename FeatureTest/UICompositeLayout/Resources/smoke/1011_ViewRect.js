@@ -19,7 +19,7 @@ win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
 	var rect = win.rect;
 	label.text = 'View Rect values are, x: '+rect.x+' y: '+rect.y+
-					'width: '+rect.width+' height: '+rect.height+
+					' width: '+rect.width+' height: '+rect.height+
 					'\nPass if values are returned';
 	win.addEventListener('postlayout', layoutHandler);
 });
