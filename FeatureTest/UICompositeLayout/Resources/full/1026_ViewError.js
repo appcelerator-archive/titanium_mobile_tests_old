@@ -4,7 +4,7 @@
 var win = Ti.UI.currentWindow;
 
 var label = Ti.UI.createLabel({
-	text: 'View Size is: ',
+	text: '',
 	top: 20,
 	left: 10,
 /*	height: 40,*/
@@ -31,7 +31,7 @@ win.addEventListener('postlayout', function layoutHandler(e) {
 			'center: x: '+view.center.x+' y: '+view.center.y+'\n'+
 			'width: '+view.width+'\n'+
 			'height: '+view.height+'\n\n'+
-			'Pass if green view fills window and all values strings returned';
+			'Pass if white background on iOS and black background on Android and all property string values are returned (i.e. leftString, etc)';
 	win.addEventListener('postlayout', layoutHandler);
 });
 
