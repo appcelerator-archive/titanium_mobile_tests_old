@@ -1,5 +1,5 @@
-// Create a text field on a parent that is width and height constrained 
-// See that the text field sizes itself accordingly 
+// Create a picker on a parent that is width and height constrained 
+// See that the picker sizes itself accordingly 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -14,8 +14,8 @@ var label = Ti.UI.createLabel({
 });
 
 var view1 = Ti.UI.createView({
-	height: 200,
-	width: 100,
+	height: 300,
+	width: 150,
 	top: 80,
 	backgroundColor: 'green'
 });
@@ -33,6 +33,4 @@ view1.add(picker);
 
 
 win.add(view1);
-/*win.add(view2);
-win.add(view3);*/
 win.add(label);
