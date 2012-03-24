@@ -13,10 +13,13 @@ var label = Ti.UI.createLabel({
 });
 
 // Short Test
-var slider1 = Ti.UI.createSlider();
+var slider1 = Ti.UI.createSlider({
+	min:0,
+	max:10
+});
 var view1 = Ti.UI.createView({
 	top:80,
-	height: 40,
+	height: 80,
 	width: 100,
 	backgroundColor: 'yellow'
 });
@@ -24,10 +27,13 @@ var view1 = Ti.UI.createView({
 view1.add(slider1);
 
 // Medium Test
-var slider2 = Ti.UI.createSlider();
+var slider2 = Ti.UI.createSlider({
+	min:0,
+	max:10
+});
 var view2 = Ti.UI.createView({
-	top:130,
-	height: 40,
+	top:180,
+	height: 80,
 	width: 200,
 	backgroundColor: 'red'
 });
@@ -36,7 +42,9 @@ view2.add(slider2);
 
 // Long Test
 var slider3 = Ti.UI.createSlider({
-	top: 180
+	top: 260,
+	min:0,
+	max:10
 });
 
 var view3 = Ti.UI.createView({
