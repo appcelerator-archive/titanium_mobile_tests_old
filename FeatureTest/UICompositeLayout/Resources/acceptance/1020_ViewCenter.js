@@ -21,8 +21,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Center values: '+view.center.x+' and '+view.center.y+'\nPass if values are returned'+
-					' and the green view is at the top left';
+	label.text = 'Green view.center.x should be 50 and is: '+view.center.x+'\nGreen view.center.y should be 50 and is: '+view.center.y;
 	win.addEventListener('postlayout', layoutHandler);
 });
 
