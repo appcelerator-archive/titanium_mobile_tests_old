@@ -13,7 +13,14 @@ var label = Ti.UI.createLabel({
 	color: 'black'
 });
 
-var width1 = (Ti.Platform.osname !== 'iphone' && Ti.Platform.osname !== 'ipad') ? 180 : 120;
+// ios widths
+var width1 = 120;
+var width2 = 180;
+
+if(Ti.Platform.osname !== 'iphone' && Ti.Platform.osname !== 'ipad'){
+	width1 = 180;
+	width2 = 230;
+}
 
 var view1 = Ti.UI.createView({
 	height: 50,
@@ -27,7 +34,6 @@ var sb1 = Titanium.UI.createSearchBar({
     showCancel:true
 });
 
-var width2 = (Ti.Platform.osname !== 'iphone' && Ti.Platform.osname !== 'ipad') ? 230 : 180;
 
 var view2 = Ti.UI.createView({
 	height: 70,

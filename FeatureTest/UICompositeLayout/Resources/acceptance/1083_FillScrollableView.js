@@ -29,10 +29,23 @@ var scrollable3 = Ti.UI.createScrollableView({
 	views: [background5, background6]
 })
 
+// ios params
+var height1 = 50 
+var width1 = 50
+
+var top2 = 140;
+
+if(Ti.Platform.osname !== 'iphone' && Ti.Platform.osname !== 'ipad'){
+	height1 = 75 
+	width1 = 75
+	
+	top2 = 170;
+}
+
 // Small Test
 var view1 = Ti.UI.createView({
-	height: 50,
-	width: 50,
+	height: height1,
+	width: width1,
 	top: 80
 });
 view1.add(scrollable1);
@@ -41,7 +54,7 @@ view1.add(scrollable1);
 var view2 = Ti.UI.createView({
 	height: 100,
 	width: 100,
-	top: 140
+	top: top2
 });
 view2.add(scrollable2);
 
