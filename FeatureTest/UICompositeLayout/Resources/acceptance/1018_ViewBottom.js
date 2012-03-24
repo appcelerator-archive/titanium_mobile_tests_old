@@ -9,7 +9,7 @@ var view = Ti.UI.createView({
 })
 
 var label = Ti.UI.createLabel({
-	text: 'view.bottom: ' + view.bottom +' The red view should be shifted 10 system units up',
+	text: 'view.bottom value should be 10 and is: ' + view.bottom +'\nThe red view should be shifted 10 system units from the bottom and is: ' + view.bottom,
 	top: 20,
 	left: 10,
 	height: Ti.UI.SIZE,
