@@ -19,7 +19,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Dynamic Left value: '+view.rect.x +'\n Static Left Value is undefined:' + view.left;
+	label.text = 'Yellow view.center.x value should be 80 and is: '+view.center.x +'\nStatic left value should be undefined and is: ' + view.left;
 	win.addEventListener('postlayout', layoutHandler);
 });
 
