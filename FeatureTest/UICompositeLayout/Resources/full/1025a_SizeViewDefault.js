@@ -35,7 +35,7 @@ win.addEventListener('postlayout', function layoutHandler(e) {
 			'center: '+labelTest.center + '\n'+
 			'width: '+labelTest.width+'\n'+
 			'height: '+labelTest.height+'\n\n'+
-			'Pass if all values are undefined';
+			'Red label should be the size of its text and all values should be undefined';
 
 	win.addEventListener('postlayout', layoutHandler);
 });
