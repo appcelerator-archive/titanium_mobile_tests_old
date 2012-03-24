@@ -26,7 +26,7 @@ var label = Ti.UI.createLabel({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Width value: '+viewChild.size.width+'\nPass if the value is 100 and \nthe red is centered to yellow';
+	label.text = 'Red view.width value should be 100 and is: '+viewChild.size.width+'\nThe red view should be verically centered within the yellow view';
 	win.addEventListener('postlayout', layoutHandler);
 });
 view.add(viewChild);
