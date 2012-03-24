@@ -17,28 +17,28 @@ var webview2 = Ti.UI.createWebView({url:'http://www.appcelerator.com'});
 
 var border1 = Ti.UI.createView({
 	top:60,
-	height:52,
-	width:52,
+	height:82,
+	width:82,
 	backgroundColor: 'black'
 })
 
 var border2 = Ti.UI.createView({
-	top: 130,
-	height: 102,
-	width: 102,
+	top: 160,
+	height: 152,
+	width: 152,
 	backgroundColor: 'black'
 })
 
 var view = Ti.UI.createView({
 	top:1,
-	height: 50,
-	width: 50
+	height: 80,
+	width: 80
 })
 
 var view2 = Ti.UI.createView({
 	top:1,
-	height: 100,
-	width: 100
+	height: 150,
+	width: 150
 })
 
 win.add(border1);
