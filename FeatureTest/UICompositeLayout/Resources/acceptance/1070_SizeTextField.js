@@ -13,10 +13,35 @@ var label = Ti.UI.createLabel({
 	color: 'black'
 });
 
+// ios widths
+var width1 = 60;
+var width2 = 120;
+
+var height1 = 30;
+var height2 = 50;
+var height3 = 70;
+
+var top1 = 80;
+var top2 = 140;
+var top3 = 220;
+
+if(Ti.Platform.osname !== 'iphone' && Ti.Platform.osname !== 'ipad'){
+	width1 = 180;
+	width2 = 230;
+	
+	height1 = 120;
+	height2 = 130;
+	height3 = 200;
+	
+	top1 = 120;
+	top2 = 250;
+	top3 = 390;
+}
+
 var view1 = Ti.UI.createView({
-	height: 30,
-	width: 60,
-	top: 80,
+	height: height1,
+	width: width1,
+	top: top1,
 	backgroundColor: 'green'
 });
 
@@ -26,9 +51,9 @@ var tf1=Titanium.UI.createTextField({
 });
 
 var view2 = Ti.UI.createView({
-	height: 50,
-	width: 120,
-	top: 140,
+	height: height2,
+	width: width2,
+	top: top2,
 	backgroundColor: 'green'
 });
 
@@ -38,9 +63,9 @@ var tf2=Titanium.UI.createTextField({
 });
 
 var view3 = Ti.UI.createView({
-	height: 70,
-	width: 180,
-	top: 220,
+	height: height3,
+	width: Ti.UI.FILL,
+	top: top3,
 	backgroundColor: 'green'
 });
 
