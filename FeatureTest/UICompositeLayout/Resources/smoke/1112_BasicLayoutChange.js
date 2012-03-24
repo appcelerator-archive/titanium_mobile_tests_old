@@ -25,7 +25,6 @@ button.addEventListener('click', function() {
 	
 	view.width = 200;
 	view.height = 30;
-	view.backgroundColor = 'green';
 	
 	view.finishLayout();
 });
