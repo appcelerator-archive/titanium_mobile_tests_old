@@ -1,7 +1,5 @@
 var win = Ti.UI.createWindow({
-	backgroundColor:'black',
-	width:Ti.UI.SIZE,
-	height:Ti.UI.SIZE
+	backgroundColor:'black'
 });
 
 var view = Ti.UI.createView({
