@@ -19,7 +19,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View dynamic width value is '+ win.size.width +'-'+ view.left + '-' + view.right + ' = ' + view.size.width+'\n Static Width Value should be undefined and is: ' + view.width;
+	label.text = 'Yellow view should be 5 units from the left and is: ' + view.left + ' Yellow view should be 10 units from the right and is: ' + view.right + '\nView dynamic width value is '+ win.size.width +'-'+ view.left + '-' + view.right + ' = ' + view.size.width+'\nStatic width value should be undefined and is: ' + view.width;
 	win.addEventListener('postlayout', layoutHandler);
 });
 
