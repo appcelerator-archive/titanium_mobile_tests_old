@@ -44,7 +44,7 @@ view2.add(slider2);
 var slider3 = Ti.UI.createSlider({
 	top: 260,
 	min:0,
-	max:10
+	max:200
 });
 
 var view3 = Ti.UI.createView({
