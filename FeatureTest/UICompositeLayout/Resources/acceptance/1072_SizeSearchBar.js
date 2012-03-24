@@ -1,11 +1,11 @@
-// Create a text field on a parent that is width and height constrained 
-// See that the text field sizes itself accordingly 
+// Create a Search Bar on a parent that is width and height constrained 
+// See that the Search Bar sizes itself accordingly 
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
 
 var label = Ti.UI.createLabel({
-	text: 'Pass if text fields (yellow) are as wide enough to handle the text in them, but not outside the view (green)',
+	text: 'Pass if Search Bar are as wide enough to fit in view (green)',
 	top: 20,
 	left: 10,
 	height: Ti.UI.SIZE,
@@ -13,9 +13,11 @@ var label = Ti.UI.createLabel({
 	color: 'black'
 });
 
+var width1 = (Ti.Platform.osname !== 'iphone' && Ti.Platform.osname !== 'ipad') ? 180 : 120;
+
 var view1 = Ti.UI.createView({
-	height: 30,
-	width: 60,
+	height: 50,
+	width: width1,
 	top: 80,
 	backgroundColor: 'green'
 });
@@ -25,10 +27,11 @@ var sb1 = Titanium.UI.createSearchBar({
     showCancel:true
 });
 
+var width2 = (Ti.Platform.osname !== 'iphone' && Ti.Platform.osname !== 'ipad') ? 230 : 180;
 
 var view2 = Ti.UI.createView({
-	height: 50,
-	width: 120,
+	height: 70,
+	width: width2,
 	top: 140,
 	backgroundColor: 'green'
 });
@@ -40,7 +43,7 @@ var sb2 = Titanium.UI.createSearchBar({
 
 var view3 = Ti.UI.createView({
 	height: 70,
-	width: 180,
+	width: Ti.UI.Fill,
 	top: 220,
 	backgroundColor: 'green'
 });
@@ -49,7 +52,6 @@ var sb3 = Titanium.UI.createSearchBar({
     barColor:'#000', 
     showCancel:true
 });
-
 
 view1.add(sb1);
 view2.add(sb2);
