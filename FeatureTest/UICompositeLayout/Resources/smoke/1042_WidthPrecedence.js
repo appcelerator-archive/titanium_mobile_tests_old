@@ -21,7 +21,7 @@ var label = Ti.UI.createLabel({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Width value: '+view.size.width+'\nPass if the value is 10 and \n10 units shifted to the right';
+	label.text = 'Yellow view.width value should be 10 and is: '+view.size.width+'\nYellow view should be shifted 10 units from the left and is: ' + view.left;
 	win.addEventListener('postlayout', layoutHandler);
 });
 
