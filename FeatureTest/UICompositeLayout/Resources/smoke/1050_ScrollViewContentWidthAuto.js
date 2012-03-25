@@ -16,13 +16,25 @@ var label = Ti.UI.createLabel({
 
 var scrollView = Titanium.UI.createScrollView({
     contentWidth:'auto',
-    showVerticalScrollIndicator:true,
+    scrollType: 'horizontal', // needed to make case work correctly on Android
     showHorizontalScrollIndicator:true
 });
+
 var view = Ti.UI.createView({
     backgroundColor:'gray',
-    width: 1000
+    width: 5000
 });
+/*
+Titanium.Gesture.addEventListener('orientationchange', function(e){ // Handle case where launched in portrait then rotated to landscape
+	
+	if (e.orientation == Ti.UI.LANDSCAPE_LEFT || e.orientation == Ti.UI.LANDSCAPE_RIGHT) {
+	view.startLayout();
+	view.width = 2000;
+	view.finishLayout();
+} 
+
+});
+*/
 
 scrollView.add(view);
 
