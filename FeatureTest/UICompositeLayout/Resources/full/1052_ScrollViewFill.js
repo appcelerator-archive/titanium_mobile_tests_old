@@ -29,7 +29,8 @@ scrollView.add(view2);
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'Scroll View height: ' + scrollView.size.height + ' width: ' + scrollView.size.width;
+	label.text = 'ScrollView\'s height and width: ' + scrollView.size.height + 'x' + scrollView.size.width + '\n' +
+	             'Screen\'s height and width: ' + win.size.height + 'x' + win.size.width;
 	win.addEventListener('postlayout', layoutHandler);
 });
 
