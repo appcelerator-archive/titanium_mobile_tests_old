@@ -21,7 +21,7 @@ var view1 = Ti.UI.createView({
 });
 
 var imageView1 = Ti.UI.createImageView({
-	url: '../images/flower.jpg',
+	image: '../images/flower.jpg',
 	backgroundColor: 'blue'
 });
 
@@ -33,7 +33,7 @@ var view2 = Ti.UI.createView({
 });
 
 var imageView2 = Ti.UI.createImageView({
-	url: '../images/flower.jpg',
+	image: '../images/flower.jpg',
 	backgroundColor: 'blue'
 });
 
@@ -45,7 +45,7 @@ var view3 = Ti.UI.createView({
 });
 
 var imageView3 = Ti.UI.createImageView({
-	url: '../images/flower.jpg',
+	image: '../images/flower.jpg',
 	backgroundColor: 'blue'
 });
 
