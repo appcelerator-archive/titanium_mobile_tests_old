@@ -1,4 +1,5 @@
 // Create a Label with scroll view and do not put any content 
+// Test case is invalid on Android: https://jira.appcelerator.org/browse/TIMOB-7817
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -13,8 +14,9 @@ var label = Ti.UI.createLabel({
 });
 
 var label2 = Ti.UI.createLabel({
-	color: 'red'
-})
+	backgroundColor:'red'
+});
+
 var scrollView = Titanium.UI.createScrollView({
     contentHeight:'auto',
     contentWidth:'auto',
