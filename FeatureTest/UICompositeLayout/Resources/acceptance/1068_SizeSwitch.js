@@ -13,39 +13,68 @@ var label = Ti.UI.createLabel({
 	color: 'black'
 });
 
+// ios params
+var height1 = 30;
+var height2 = 50;
+var height3 = 70;
+
+var width1 = 80;
+var width2 = 120;
+var width3 = 180;
+
+var top1 = 80;
+var top2 = 140;
+var top3 = 220;
+
+if (Ti.Platform.osname !== 'iphone' && Ti.Platform.osname !== 'ipad'){
+	height1 = 85;
+	height2 = 85;
+	height3 = 85;
+	
+	width1 = 95;
+	width2 = 150;
+	
+	top2 = 170;
+	top3 = 270;
+}
+
 var view1 = Ti.UI.createView({
-	height: 30,
-	width: 60,
-	top: 80,
+	height: height1,
+	width: width1,
+	top: top1,
 	backgroundColor: 'green'
 });
 
 var sw1=Titanium.UI.createSwitch({
-	value: true
+	value: true,
+	titleOn:'A',
+	titleOff:'B'
 });
 
 var view2 = Ti.UI.createView({
-	height: 50,
-	width: 120,
-	top: 140,
+	height: height2,
+	width: width2,
+	top: top2,
 	backgroundColor: 'green'
 });
 
 var sw2=Titanium.UI.createSwitch({
 	value: true,
-	title:'Testing'
+	titleOn:'Test On',
+	titleOff:'Test Off'
 });
 
 var view3 = Ti.UI.createView({
-	height: 70,
-	width: 180,
-	top: 220,
+	height: height3,
+	width: width3,
+	top: top3,
 	backgroundColor: 'green'
 });
 
 var sw3=Titanium.UI.createSwitch({
 	value: true,
-	title: 'Test'
+	titleOn:'VeryLongText1234567890 On',
+	titleOff:'VeryLongText1234567890 Off'
 });
 
 
