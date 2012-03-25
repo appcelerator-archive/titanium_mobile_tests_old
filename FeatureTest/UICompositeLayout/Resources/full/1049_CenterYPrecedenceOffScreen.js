@@ -24,7 +24,7 @@ var label = Ti.UI.createLabel({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'Will be controlled by the parent view and bottom value is ignored';
+	label.text = 'The red view.center.y value should be 20 and is: ' + viewChild.center.y + '\nThe red view.bottom value should be 100 and is: ' + viewChild.bottom + '\nThe red view should be contained withtin the yellow view';
 	win.addEventListener('postlayout', layoutHandler);
 });
 view.add(viewChild);
