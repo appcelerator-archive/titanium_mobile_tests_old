@@ -26,7 +26,7 @@ var label = Ti.UI.createLabel({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Height value: '+viewChild.size.height+'\nPass if the value is 100 and \nthe red is centered to yellow';
+	label.text = 'The red view.height value should be 100 and is: '+viewChild.size.height+'\nThe red view.center.y should be 100 and is: ' + viewChild.center.y + '\nThe red view should be horizontally centered within the yellow view';
 	win.addEventListener('postlayout', layoutHandler);
 });
 view.add(viewChild);
