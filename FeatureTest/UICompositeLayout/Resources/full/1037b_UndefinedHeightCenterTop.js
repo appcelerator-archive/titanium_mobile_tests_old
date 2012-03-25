@@ -19,7 +19,7 @@ var view = Ti.UI.createView({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'Yellow view should be 5 units from the top and is: '+ view.top +'\nYellow view dynamic height value should be: 2*('+ view.center.y +'-'+ view.rect.x + '-' + view.top + ') = ' + view.size.height +'\nStatic height value should be undefined and is: ' + view.height;
+	label.text = 'Yellow view should be 5 units from the top and is: '+ view.top +'\nYellow view dynamic height value should be: 2*('+ view.center.y +'-'+ win.rect.y + '-' + view.top + ') = ' + view.size.height +'\nStatic height value should be undefined and is: ' + view.height;
 	win.addEventListener('postlayout', layoutHandler);
 });
 

@@ -10,6 +10,7 @@ var view = Ti.UI.createView({
 })
 var viewChild = Ti.UI.createView({
 	backgroundColor: 'red',
+	top: 10,
 	center: {y:20},
 	bottom: 100
 });
@@ -21,12 +22,13 @@ var label = Ti.UI.createLabel({
 	color: 'black'
 });
 
-
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'The red view.center.y value should be 20 and is: ' + viewChild.center.y + '\nThe red view.bottom value should be 100 and is: ' + viewChild.bottom + '\nThe red view should be contained withtin the yellow view';
+	label.text = 'The red view\'s height should be 2*('+ viewChild.center.y +'-'+ win.rect.y + '-' + viewChild.top + ') = ' + viewChild.size.height + '. '+
+	             'The red view should be shifted 10 units down from top of the yellow view.';
 	win.addEventListener('postlayout', layoutHandler);
 });
+
 view.add(viewChild);
 win.add(view);
 win.add(label);
