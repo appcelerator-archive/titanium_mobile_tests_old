@@ -21,7 +21,7 @@ var label = Ti.UI.createLabel({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'View Height value: '+view.size.height+'\nPass if the value is 10 and \n10 units down from the top';
+	label.text = 'Yellow view.height value should be 10 and is: '+view.size.height+'\nYellow view should be 10 units from the top and is: ' + view.top;
 	win.addEventListener('postlayout', layoutHandler);
 });
 
