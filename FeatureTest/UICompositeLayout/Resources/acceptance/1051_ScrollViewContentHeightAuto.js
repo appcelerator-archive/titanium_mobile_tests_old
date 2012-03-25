@@ -15,19 +15,20 @@ var label = Ti.UI.createLabel({
 
 var scrollView = Titanium.UI.createScrollView({
     contentHeight:'auto',
+    scrollType: 'vertical',
     showVerticalScrollIndicator:true,
     showHorizontalScrollIndicator:true
 });
 var view = Ti.UI.createView({
     backgroundColor:'gray',
-    height: 1000
+    height: 5000
 });
 
 scrollView.add(view);
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'Pass if gray view fills the screen and scrolls up and down';
+	label.text = 'Pass if gray view fills the screen and scrolls vertically';
 	win.addEventListener('postlayout', layoutHandler);
 });
 
