@@ -10,7 +10,8 @@ var view = Ti.UI.createView({
 })
 var viewChild = Ti.UI.createView({
 	backgroundColor: 'red',
-	center: {x:20},
+	left: 10,
+	center: {x:30},
 	right: 100
 });
 var label = Ti.UI.createLabel({
@@ -24,7 +25,8 @@ var label = Ti.UI.createLabel({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'The red view will be constrained by the parent (yellow) view';
+	label.text = 'The red view\'s width should be 2*(' + viewChild.center.x + '-' + viewChild.left + '-' +win.rect.x +') = ' + viewChild.size.width + '. ' +
+	             'The red view should be shifted 10 units to the right.';
 	win.addEventListener('postlayout', layoutHandler);
 });
 view.add(viewChild);
