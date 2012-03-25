@@ -14,7 +14,7 @@ var label = Ti.UI.createLabel({
 });
 var view1 = Ti.UI.createView({
 	backgroundColor: 'blue',
-	top: 20,
+	top: 60,
 	left: 20,
 	height: 40,
 	width: 40,
@@ -23,7 +23,7 @@ var view1 = Ti.UI.createView({
 
 var view2 = Ti.UI.createView({
 	backgroundColor: 'orange',
-	top: 40,
+	top: 80,
 	left: 40,
 	height: 40,
 	width: 40,
