@@ -55,8 +55,8 @@ outlineView2.add(view2);
 
 // Long Test
 var outlineView3 = Ti.UI.createView({
-	height: 62,
-	width: 152,
+	height: 75,
+	width: 170,
 	top: 280,
 	backgroundColor: 'red'
 });
