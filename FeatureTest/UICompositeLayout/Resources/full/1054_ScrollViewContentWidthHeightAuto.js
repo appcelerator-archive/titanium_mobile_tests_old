@@ -1,5 +1,6 @@
 // Create a view with scroll view and put content that will require both scroll 
 // View should fill the screen and allow to scroll both direction    
+// Test case is not valid for Android; cannot have vertical and horizontal scroll indicators at the same time.
 
 var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
@@ -14,7 +15,7 @@ var label = Ti.UI.createLabel({
 });
 
 var scrollView = Titanium.UI.createScrollView({
-  contentWidth:'auto',
+    contentWidth:'auto',
     contentHeight:'auto',
     showVerticalScrollIndicator:true,
     showHorizontalScrollIndicator:true
