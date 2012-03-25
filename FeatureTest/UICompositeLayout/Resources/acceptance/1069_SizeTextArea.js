@@ -64,7 +64,7 @@ var ta2=Titanium.UI.createTextArea({
 
 var view3 = Ti.UI.createView({
 	height: height3,
-	width: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
 	top: top3,
 	backgroundColor: 'green'
 });
