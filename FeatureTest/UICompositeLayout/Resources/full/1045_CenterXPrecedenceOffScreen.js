@@ -24,7 +24,7 @@ var label = Ti.UI.createLabel({
 
 win.addEventListener('postlayout', function layoutHandler(e) {
 	win.removeEventListener('postlayout', layoutHandler);
-	label.text = 'Will be controlled by the parent view and right value is ignored';
+	label.text = 'The red view will be constrained by the parent (yellow) view';
 	win.addEventListener('postlayout', layoutHandler);
 });
 view.add(viewChild);
