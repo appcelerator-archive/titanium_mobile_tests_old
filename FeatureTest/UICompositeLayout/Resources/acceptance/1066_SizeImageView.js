@@ -5,7 +5,7 @@ var win = Ti.UI.currentWindow;
 win.backgroundColor = 'white';
 
 var label = Ti.UI.createLabel({
-	text: 'Image View should auto size to image, but stay within red',
+	text: 'ImageView should auto size to image and stay within the blue',
 	top: 20,
 	left: 10,
 	height: Ti.UI.SIZE,
