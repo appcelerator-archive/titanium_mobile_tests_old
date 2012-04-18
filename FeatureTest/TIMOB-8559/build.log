@@ -1,0 +1,13 @@
+Logfile initialized
+[INFO] logfile = /Users/wluu/Documents/git_workspace/titanium_mobile_tests/FeatureTest/TIMOB-8559/build.log
+[DEBUG] /Users/wluu/Library/Application Support/Titanium/mobilesdk/osx/2.0.1.GA2/android/builder.py simulator TIMOB-8559 /android-sdk-macosx /Users/wluu/Documents/git_workspace/titanium_mobile_tests/FeatureTest/TIMOB-8559 com.appcelerator.TIMOB8559 10 WVGA854 
+[INFO] Building TIMOB-8559 for Android ... one moment
+[INFO] Titanium SDK version: 2.0.1 (04/12/12 16:33 999c68a)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[ERROR] Timed out waiting for emulator to be ready, you may need to close the emulator and try again
