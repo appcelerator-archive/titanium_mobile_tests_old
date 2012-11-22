@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object created="2012-11-16T16:25:48.753-08:00" id="22263702" lastModified="2012-11-16T16:26:46.324-08:00" type="composition" schemaVersion="2555" name="Comp_for_Dummy_git_1" path="/clips/Lokesh">
+    <Body>
+      <Composition xmlns="http://www.soasta.com/services/repository">
+        <Bands xmlns="http://www.soasta.com/services/repository">
+          <Band name="Band 1" scope="private" slotCount="1" type="sequenced" xmlns="http://www.soasta.com/services/repository">
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          </Band>
+        </Bands>
+        <Tracks xmlns="http://www.soasta.com/services/repository">
+          <Track enabled="1" name="Track 1" scope="private" xmlns="http://www.soasta.com/services/repository">
+            <Bands xmlns="http://www.soasta.com/services/repository">
+              <Band name="Band 1" xmlns="http://www.soasta.com/services/repository">
+                <Clips xmlns="http://www.soasta.com/services/repository">
+                  <Clip displayWidth="1" enabled="1" endSlot="0" failure-action="record-only" name="Dummy_for_git_1" ref="1" scope="private" startSlot="0" xmlns="http://www.soasta.com/services/repository">
+                    <PropSets xmlns="http://www.soasta.com/services/repository" />
+                  </Clip>
+                </Clips>
+              </Band>
+            </Bands>
+            <Distributions xmlns="http://www.soasta.com/services/repository">
+              <Distribution xmlns="http://www.soasta.com/services/repository">
+                <Places xmlns="http://www.soasta.com/services/repository">
+                  <Place type="AnyServer" xmlns="http://www.soasta.com/services/repository" />
+                </Places>
+              </Distribution>
+            </Distributions>
+          </Track>
+        </Tracks>
+        <Monitoring deviceAgentMonitoring="true" xmlns="http://www.soasta.com/services/repository" />
+      </Composition>
+    </Body>
+    <BinaryData />
+    <Description />
+    <Attributes>
+      <Attribute name="lastPlayed">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="successfulPlayCount">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="unsuccessfulPlayCount">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="stoppedPlayCount">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="userData">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="22263699" internalID="1" name="Dummy_for_git_1" path="/clips/Lokesh" type="messageclip" />
+    </References>
+    <TipText />
+  </Object>
+</rp:ObjectSet>
