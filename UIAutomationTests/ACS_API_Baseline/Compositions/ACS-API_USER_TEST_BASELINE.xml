@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
-  <Object created="2012-11-06T09:43:27.616-08:00" id="20664059" lastModified="2012-11-06T09:44:43.618-08:00" type="composition" schemaVersion="2555" name="KitchenSink_Base_UI_Clip_as_of_6_11_12" path="/clips/Lokesh">
+  <Object created="2012-11-25T19:57:38.685-08:00" id="22863778" lastModified="2012-11-25T20:00:51.138-08:00" type="composition" schemaVersion="2555" name="ACS-API_USER_TEST_BASELINE" path="/clips/Lokesh">
     <Body>
       <Composition xmlns="http://www.soasta.com/services/repository">
         <Bands xmlns="http://www.soasta.com/services/repository">
@@ -13,7 +13,7 @@
             <Bands xmlns="http://www.soasta.com/services/repository">
               <Band name="Band 1" xmlns="http://www.soasta.com/services/repository">
                 <Clips xmlns="http://www.soasta.com/services/repository">
-                  <Clip displayWidth="1" enabled="1" endSlot="0" failure-action="record-only" name="Clip for Ipad 3 iOS6 - Base UI" ref="1" scope="private" startSlot="0" xmlns="http://www.soasta.com/services/repository">
+                  <Clip displayWidth="1" enabled="1" endSlot="0" failure-action="record-only" name="ACS-API_USER_TEST_BASELINE.CLIP" ref="4" scope="private" startSlot="0" xmlns="http://www.soasta.com/services/repository">
                     <PropSets xmlns="http://www.soasta.com/services/repository" />
                   </Clip>
                 </Clips>
@@ -51,7 +51,8 @@
       </Attribute>
     </Attributes>
     <References>
-      <Reference id="20663867" internalID="1" name="Clip for Ipad 3 iOS6 - Base UI" path="/clips/Lokesh" type="messageclip" />
+      <Reference id="10590" internalID="2" name="Result Details Dashboard" path="/System Objects/Dashboards" type="dashboard" />
+      <Reference id="22863780" internalID="4" name="ACS-API_USER_TEST_BASELINE.CLIP" path="/clips/Lokesh" type="messageclip" />
     </References>
     <TipText />
   </Object>

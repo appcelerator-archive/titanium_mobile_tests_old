@@ -1,0 +1,1882 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object created="2012-11-25T19:59:44.608-08:00" id="22863780" lastModified="2012-11-25T19:59:44.608-08:00" type="messageclip" schemaVersion="2555" name="ACS-API_USER_TEST_BASELINE.CLIP" path="/clips/Lokesh">
+    <Body>
+      <MessageClip xmlns="http://www.soasta.com/services/repository">
+        <Targets xmlns="http://www.soasta.com/services/repository">
+          <Target id="0" name="iPad3 - iOS 6 TestCloud_iOS" ref="1" scope="local" xmlns="http://www.soasta.com/services/repository" />
+        </Targets>
+        <UserProperties xmlns="http://www.soasta.com/services/repository" />
+        <Options dynamicResourceCache="disabled" interItemDelay="0" xmlns="http://www.soasta.com/services/repository" />
+      </MessageClip>
+    </Body>
+    <BinaryData />
+    <Description />
+    <Attributes>
+      <Attribute name="type">
+        <Value>sequenced</Value>
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="21665792" internalID="1" name="iPad3 - iOS 6 TestCloud_iOS" path="/" type="target" />
+      <Reference id="21665792" internalID="0" name="iPad3 - iOS 6 TestCloud_iOS" path="/" type="target" />
+    </References>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281084" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="CreateUsers" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP" parentType="messageclip" uid="0d6f5a92-bf7b-467d-b552-aa951ef60560">
+    <Body>
+      <rp:ClipElement xmlns:rp="http://www.soasta.com/services/repository">
+        <GroupStart xmlns="http://www.soasta.com/services/repository" />
+      </rp:ClipElement>
+    </Body>
+    <BinaryData />
+    <Description />
+    <Attributes>
+      <Attribute name="type">
+        <Value>group</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281096" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action1" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="9c968742-c559-49fc-80ce-aa64524fc077">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Users[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"touchCount\":\"1\",\"duration\":\"0.029058\",\"tapOffset\":\"81.500000,15.000000\",\"tapCount\":\"1\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281100" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action2" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="3e6bb592-7955-4849-9d0d-1331878351f3">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Create User[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"touchCount\":\"1\",\"duration\":\"0.046342\",\"tapOffset\":\"124.500000,16.000000\",\"tapCount\":\"1\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281099" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action3" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="add15fb1-da46-48bd-bfee-ba0b57d12035">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=Username</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">scoobie</Param>
+            </Params>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>type</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>2</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281094" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action4" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="27345373-4483-438a-bda9-283116947df8">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=Password</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>3</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281089" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action5" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="9e4806cf-ffb4-4bc9-9486-02685758c066">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=Password</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">snacks</Param>
+            </Params>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>type</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>4</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281087" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action6" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="4449e8c6-ab25-4555-a265-d90741432263">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=Confirm Password</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>5</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281098" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action7" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="2d25f8a0-0b91-4578-939e-b0e7b5e7550b">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=Confirm Password</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">snacks</Param>
+            </Params>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>type</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>6</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281093" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action8" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="1193d526-661e-486d-892e-ee9015165c58">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=First Name</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>7</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281092" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action9" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="2c45a2aa-a13e-453c-986c-c0a42a0730d8">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=First Name</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">Scoobie</Param>
+            </Params>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>type</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>8</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281095" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action10" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="d3b8b1fa-12d0-4bb5-b834-0bb1f6c14bcd">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=Last Name</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>9</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281086" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action11" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="c125ce60-2419-4640-8e20-52ed8bd0453a">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=Last Name</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">Doo</Param>
+            </Params>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>type</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>10</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281091" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action12" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="f5f6cd8c-658c-47bc-9951-114d9c2ea41e">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Create[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"touchCount\":\"1\",\"duration\":\"0.053971\",\"tapOffset\":\"20.500000,5.000000\",\"tapCount\":\"1\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>11</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281101" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action13" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="b0679b6a-b64a-4a05-b67e-a76cbe2de8e3">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=OK</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"0.209296\",\"touchCount\":\"1\",\"tapOffset\":\"147.000000,20.000000\",\"tapCount\":\"1\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="wait-forAlertDismissed" disabled="true" failure-action="record-only" name="waitForAlertDismissed" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository" />
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>12</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281090" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action14" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="85d85da7-050a-443a-8c66-4ae3006f1d51">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Back[3]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"touchCount\":\"1\",\"duration\":\"0.053855\",\"tapOffset\":\"32.000000,5.000000\",\"tapCount\":\"1\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>13</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281088" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action15" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="fd261983-d62a-4e71-b3b1-5102c50db4cc">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Logout Current User[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"touchCount\":\"1\",\"duration\":\"0.046453\",\"tapOffset\":\"228.500000,29.500000\",\"tapCount\":\"1\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>14</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281085" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action16" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="188b8120-7256-479a-a04a-35ba4c926d26">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Back[2]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"touchCount\":\"1\",\"duration\":\"0.044197\",\"tapOffset\":\"388.000000,4.000000\",\"tapCount\":\"1\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>15</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281097" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action17" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//CreateUsers" parentType="clipelement" uid="41d34923-8181-4ed3-bb0e-542dfa3305d7">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Back[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"touchCount\":\"1\",\"duration\":\"0.043846\",\"tapOffset\":\"22.000000,15.000000\",\"tapCount\":\"1\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>16</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:44.701-08:00" id="18281067" lastModified="2012-11-25T19:59:44.701-08:00" type="clipelement" schemaVersion="2555" name="Login-Logout" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP" parentType="messageclip" uid="180e4f42-0368-43e2-afa3-fcba31b3cd0c">
+    <Body>
+      <rp:ClipElement xmlns:rp="http://www.soasta.com/services/repository">
+        <GroupStart xmlns="http://www.soasta.com/services/repository" />
+      </rp:ClipElement>
+    </Body>
+    <BinaryData />
+    <Description />
+    <Attributes>
+      <Attribute name="type">
+        <Value>group</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281079" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action1" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="cc91d3f2-3ad2-40a3-b9aa-2894da2f4a9f">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Users[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.099199\\\",\\\"tapOffset\\\":\\\"62.500000,22.500000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+              <Wait built-in="true" cmd="wait-forAnimationEnd" name="waitForAnimationEnd">
+                <Params>
+                  <Param name="arg1" />
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281068" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action2" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="7f009f40-dbcf-415a-af26-0b5e82c66ad4">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Login User[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.111197\\\",\\\"tapOffset\\\":\\\"133.000000,21.500000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+              <Wait built-in="true" cmd="wait-forAnimationEnd" name="waitForAnimationEnd">
+                <Params>
+                  <Param name="arg1" />
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281080" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action3" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="fe79dbd9-fb85-47fe-8fb1-98ab6ea33f5f">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=Login</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">robdefault</Param>
+            </Params>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>type</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>2</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281076" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action4" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="e28b7aed-42e6-4fbd-aae1-6242bce49acb">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=Password</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>3</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281083" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action5" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="a4b53f4c-6d29-4607-8ef7-b61395ff88ea">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">placeholder=Password</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">appc</Param>
+            </Params>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>type</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>4</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281077" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action7" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="f0b560d6-c643-42a1-8426-771baba524af">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Login User[2]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.094219\\\",\\\"tapOffset\\\":\\\"385.000000,15.500000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+              <Wait built-in="true" cmd="wait-forAnimationEnd" name="waitForAnimationEnd">
+                <Params>
+                  <Param name="arg1" />
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>5</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281075" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action8" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="92ee0a8d-4e46-410a-85e0-3360ac7bf8e8">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=OK</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"duration\\\":\\\"0.111638\\\",\\\"touchCount\\\":\\\"1\\\",\\\"tapOffset\\\":\\\"156.000000,16.500000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="wait-forAlertDismissed" disabled="true" failure-action="record-only" name="waitForAlertDismissed" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository" />
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>6</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281081" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action9" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="c58daeb3-c60d-4f42-9729-50e527ffa49b">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Back[2]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.080992\\\",\\\"tapOffset\\\":\\\"383.000000,34.000000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>7</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281082" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action10" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="a00b8917-6956-4107-9fc2-e7a5f5a8ae6d">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Show Current User[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.049088\\\",\\\"tapOffset\\\":\\\"250.500000,37.500000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+              <Wait built-in="true" cmd="wait-forAnimationEnd" name="waitForAnimationEnd">
+                <Params>
+                  <Param name="arg1" />
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>8</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281072" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action11" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="a4f0ad18-345b-44e7-b4e6-12458a63ddd5">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Back[2]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.107296\\\",\\\"tapOffset\\\":\\\"390.000000,20.500000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>9</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281069" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action12" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="b6fc58ae-e360-4c2f-a1de-af2243fa9f29">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Logout Current User[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.082231\\\",\\\"tapOffset\\\":\\\"241.500000,34.000000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+              <Wait built-in="true" cmd="wait-forAnimationEnd" name="waitForAnimationEnd">
+                <Params>
+                  <Param name="arg1" />
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>10</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281078" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action13" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="ad98d8ee-2045-49e7-b096-319786fe226c">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Back[2]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.097376\\\",\\\"tapOffset\\\":\\\"382.000000,16.500000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>11</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281073" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action14" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="c72cb399-f21a-4993-a2a9-dbee6dc00fb1">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Show Current User[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.083118\\\",\\\"tapOffset\\\":\\\"249.500000,28.500000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" failure-action="record-only" name="builtIn-waitForGestureToComplete" xmlns="http://www.soasta.com/services/repository" />
+              <Wait built-in="true" cmd="wait-forAnimationEnd" disabled="true" failure-action="record-only" name="waitForAnimationEnd" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository" />
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>12</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281074" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action6" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="e69cad68-2618-4381-817d-eafa7573ef0e">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <PreActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait cmd="wait-forTimeDelay" failure-action="record-only" name="waitForTimeDelay" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository">1200</Param>
+                </Params>
+              </Wait>
+            </PreActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>noOp</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>13</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281070" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action16" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="401b07b0-2e6d-47d9-9698-45b425d8b538">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Back[2]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.115854\\\",\\\"tapOffset\\\":\\\"380.500000,31.500000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>14</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T19:59:45.037-08:00" id="18281071" lastModified="2012-11-25T19:59:45.037-08:00" type="clipelement" schemaVersion="2555" name="App Action17" path="/clips/Lokesh/ACS-API_USER_TEST_BASELINE.CLIP//Login-Logout" parentType="clipelement" uid="f38bbe1c-150b-4fe7-9533-c0966fc9d248">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">text=Back</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"","touchCount":"","tapOffset":"","tapCount":"{\"duration\":\"\",\"touchCount\":\"\",\"tapOffset\":\"\",\"tapCount\":\"{\\\"touchCount\\\":\\\"1\\\",\\\"duration\\\":\\\"0.114545\\\",\\\"tapOffset\\\":\\\"390.000000,16.000000\\\",\\\"tapCount\\\":\\\"1\\\"}\"}"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" name="builtIn-waitForGestureToComplete">
+                <Params />
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>15</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+</rp:ObjectSet>
