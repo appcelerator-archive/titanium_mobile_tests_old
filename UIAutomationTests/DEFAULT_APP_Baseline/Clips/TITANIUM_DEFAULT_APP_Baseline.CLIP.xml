@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object created="2012-11-25T21:11:44.986-08:00" id="22863784" lastModified="2012-11-25T21:11:44.986-08:00" type="messageclip" schemaVersion="2555" name="TITANIUM_DEFAULT_APP_Baseline.CLIP" path="/clips/Lokesh">
+    <Body>
+      <MessageClip xmlns="http://www.soasta.com/services/repository">
+        <Targets xmlns="http://www.soasta.com/services/repository">
+          <Target id="0" name="iPad3 - iOS 6 TitaniumSample_iOS" ref="0" scope="public" xmlns="http://www.soasta.com/services/repository" />
+        </Targets>
+        <UserProperties xmlns="http://www.soasta.com/services/repository" />
+        <Options dynamicResourceCache="disabled" interItemDelay="0" xmlns="http://www.soasta.com/services/repository" />
+      </MessageClip>
+    </Body>
+    <BinaryData />
+    <Description />
+    <Attributes>
+      <Attribute name="type">
+        <Value>sequenced</Value>
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="22263986" internalID="0" name="iPad3 - iOS 6 TitaniumSample_iOS" path="/" type="target" />
+    </References>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T21:11:45.075-08:00" id="18281106" lastModified="2012-11-25T21:11:45.075-08:00" type="clipelement" schemaVersion="2555" name="TitaniumSample" path="/clips/Lokesh/TITANIUM_DEFAULT_APP_Baseline.CLIP" parentType="messageclip" uid="9000ef0c-d42d-48c0-b3c8-c68cdc658ab6">
+    <Body>
+      <rp:ClipElement xmlns:rp="http://www.soasta.com/services/repository">
+        <GroupStart xmlns="http://www.soasta.com/services/repository" />
+      </rp:ClipElement>
+    </Body>
+    <BinaryData />
+    <Description />
+    <Attributes>
+      <Attribute name="type">
+        <Value>group</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T21:11:45.394-08:00" id="18281110" lastModified="2012-11-25T21:11:45.394-08:00" type="clipelement" schemaVersion="2555" name="App Action2" path="/clips/Lokesh/TITANIUM_DEFAULT_APP_Baseline.CLIP//TitaniumSample" parentType="clipelement" uid="8ae1f682-2f7e-4273-89a3-f5948aeb9a14">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">//UITabBar//UITabBarButton[0]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"0.135613","touchCount":"1","tapOffset":"42.500000,36.500000","tapCount":"1"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" failure-action="record-only" name="builtIn-waitForGestureToComplete" xmlns="http://www.soasta.com/services/repository" />
+              <Wait cmd="wait-forTimeDelay" failure-action="record-only" name="waitForTimeDelay" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository">4000</Param>
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T21:11:45.394-08:00" id="18281111" lastModified="2012-11-25T21:11:45.394-08:00" type="clipelement" schemaVersion="2555" name="App Action1" path="/clips/Lokesh/TITANIUM_DEFAULT_APP_Baseline.CLIP//TitaniumSample" parentType="clipelement" uid="daa6ced1-6839-4473-83ca-acd25dc72043">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">//UITabBar//UITabBarButton[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"0.102666","touchCount":"1","tapOffset":"38.000000,39.500000","tapCount":"1"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="wait-forViewChange" failure-action="record-only" name="waitForViewChange" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository" />
+                </Params>
+              </Wait>
+              <Wait cmd="wait-forTimeDelay" failure-action="record-only" name="waitForTimeDelay" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository">3000</Param>
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T21:11:45.394-08:00" id="18281112" lastModified="2012-11-25T21:11:45.394-08:00" type="clipelement" schemaVersion="2555" name="App Action3" path="/clips/Lokesh/TITANIUM_DEFAULT_APP_Baseline.CLIP//TitaniumSample" parentType="clipelement" uid="dcae38f7-5ee2-4c3d-a7d0-257a5fc145af">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">//UITabBar//UITabBarButton[0]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"0.135613","touchCount":"1","tapOffset":"42.500000,36.500000","tapCount":"1"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" failure-action="record-only" name="builtIn-waitForGestureToComplete" xmlns="http://www.soasta.com/services/repository" />
+              <Wait cmd="wait-forTimeDelay" failure-action="record-only" name="waitForTimeDelay" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository">3000</Param>
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>2</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T21:11:45.394-08:00" id="18281113" lastModified="2012-11-25T21:11:45.394-08:00" type="clipelement" schemaVersion="2555" name="App Action4" path="/clips/Lokesh/TITANIUM_DEFAULT_APP_Baseline.CLIP//TitaniumSample" parentType="clipelement" uid="9ad9eecc-42ca-4b1e-b773-c685aee05aff">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">//UITabBar//UITabBarButton[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"0.119109","touchCount":"1","tapOffset":"44.500000,40.000000","tapCount":"1"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" failure-action="record-only" name="builtIn-waitForGestureToComplete" xmlns="http://www.soasta.com/services/repository" />
+              <Wait cmd="wait-forTimeDelay" failure-action="record-only" name="waitForTimeDelay" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository">5000</Param>
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>3</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T21:11:45.394-08:00" id="18281108" lastModified="2012-11-25T21:11:45.394-08:00" type="clipelement" schemaVersion="2555" name="App Action5" path="/clips/Lokesh/TITANIUM_DEFAULT_APP_Baseline.CLIP//TitaniumSample" parentType="clipelement" uid="cab25453-80a3-4447-a1ae-c070bf155a60">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">//UITabBar//UITabBarButton[0]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"0.152719","touchCount":"1","tapOffset":"34.000000,35.000000","tapCount":"1"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" failure-action="record-only" name="builtIn-waitForGestureToComplete" xmlns="http://www.soasta.com/services/repository" />
+              <Wait cmd="wait-forTimeDelay" failure-action="record-only" name="waitForTimeDelay" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository">5000</Param>
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>4</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T21:11:45.394-08:00" id="18281109" lastModified="2012-11-25T21:11:45.394-08:00" type="clipelement" schemaVersion="2555" name="App Action6" path="/clips/Lokesh/TITANIUM_DEFAULT_APP_Baseline.CLIP//TitaniumSample" parentType="clipelement" uid="2ea8478c-7546-43ed-83a2-b69456c16b82">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">//UITabBar//UITabBarButton[1]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"0.069404","touchCount":"1","tapOffset":"39.500000,35.500000","tapCount":"1"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" failure-action="record-only" name="builtIn-waitForGestureToComplete" xmlns="http://www.soasta.com/services/repository" />
+              <Wait cmd="wait-forTimeDelay" failure-action="record-only" name="waitForTimeDelay" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository">3000</Param>
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>5</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+  <Object created="2012-11-25T21:11:45.394-08:00" id="18281107" lastModified="2012-11-25T21:11:45.394-08:00" type="clipelement" schemaVersion="2555" name="App Action7" path="/clips/Lokesh/TITANIUM_DEFAULT_APP_Baseline.CLIP//TitaniumSample" parentType="clipelement" uid="c32d2d4a-c295-441a-bd3f-0699c4dcb942">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <AppAction xmlns="http://www.soasta.com/services/repository">
+          <Operation xmlns="http://www.soasta.com/services/repository">
+            <Params xmlns="http://www.soasta.com/services/repository">
+              <Param name="arg1" xmlns="http://www.soasta.com/services/repository">//UITabBar//UITabBarButton[0]</Param>
+              <Param name="arg2" xmlns="http://www.soasta.com/services/repository">{"duration":"0.103275","touchCount":"1","tapOffset":"37.000000,37.500000","tapCount":"1"}</Param>
+            </Params>
+            <PostActionWaits xmlns="http://www.soasta.com/services/repository">
+              <Wait built-in="true" cmd="output-isGestureComplete" failure-action="record-only" name="builtIn-waitForGestureToComplete" xmlns="http://www.soasta.com/services/repository" />
+              <Wait cmd="wait-forTimeDelay" failure-action="record-only" name="waitForTimeDelay" xmlns="http://www.soasta.com/services/repository">
+                <Params xmlns="http://www.soasta.com/services/repository">
+                  <Param name="arg1" xmlns="http://www.soasta.com/services/repository">4000</Param>
+                </Params>
+              </Wait>
+            </PostActionWaits>
+          </Operation>
+        </AppAction>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>appaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>tap</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>6</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText />
+  </Object>
+</rp:ObjectSet>
